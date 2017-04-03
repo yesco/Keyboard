@@ -591,7 +591,7 @@ SECTION
   2
 ENTITIES
   0
-SPLINE
+LWPOLYLINE
   5
 100
 100
@@ -601,33 +601,11 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+7
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 0.415236
  20
@@ -635,15 +613,33 @@ AcDbSpline
  30
 0.0
  10
-0.303680
+0.092682
  20
--0.279658
+-0.183562
  30
 0.0
  10
-0.195896
+0.092682
  20
--0.236873
+-0.183562
+ 30
+0.0
+ 10
+0.092682
+ 20
+-0.183562
+ 30
+0.0
+ 10
+0.092682
+ 20
+-0.183562
+ 30
+0.0
+ 10
+0.092682
+ 20
+-0.183562
  30
 0.0
  10
@@ -656,58 +652,6 @@ AcDbSpline
 LWPOLYLINE
   5
 101
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-6
- 70
-1
- 10
-0.092682
- 20
--0.183562
- 30
-0.0
- 10
-0.092682
- 20
--0.183562
- 30
-0.0
- 10
-0.092682
- 20
--0.183562
- 30
-0.0
- 10
-0.092682
- 20
--0.183562
- 30
-0.0
- 10
-0.092682
- 20
--0.183562
- 30
-0.0
- 10
-0.092682
- 20
--0.183562
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-102
 100
 AcDbEntity
   8
@@ -735,7 +679,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-103
+102
 100
 AcDbEntity
   8
@@ -763,7 +707,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-104
+103
 100
 AcDbEntity
   8
@@ -789,71 +733,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-105
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-18.494031
- 20
--0.375619
- 30
-0.0
- 10
-18.382474
- 20
--0.346071
- 30
-0.0
- 10
-18.274691
- 20
--0.303286
- 30
-0.0
- 10
-18.171477
- 20
--0.249974
- 30
-0.0
-  0
 LWPOLYLINE
   5
-106
+104
 100
 AcDbEntity
   8
@@ -881,7 +763,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-107
+105
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+18.494031
+ 20
+-0.375619
+ 30
+0.0
+ 10
+18.171477
+ 20
+-0.249974
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+106
 100
 AcDbEntity
   8
@@ -921,7 +831,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-108
+107
 100
 AcDbEntity
   8
@@ -933,7 +843,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 18.171477
  20
@@ -973,7 +883,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-109
+108
 100
 AcDbEntity
   8
@@ -1001,7 +911,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-10a
+109
 100
 AcDbEntity
   8
@@ -1029,7 +939,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-10b
+10a
 100
 AcDbEntity
   8
@@ -1055,71 +965,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-10c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.449333
- 20
--0.367672
- 30
-0.0
- 10
-36.337776
- 20
--0.338123
- 30
-0.0
- 10
-36.229992
- 20
--0.295339
- 30
-0.0
- 10
-36.126778
- 20
--0.242027
- 30
-0.0
-  0
 LWPOLYLINE
   5
-10d
+10b
 100
 AcDbEntity
   8
@@ -1147,7 +995,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-10e
+10c
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+36.449333
+ 20
+-0.367672
+ 30
+0.0
+ 10
+36.126778
+ 20
+-0.242027
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+10d
 100
 AcDbEntity
   8
@@ -1187,7 +1063,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-10f
+10e
 100
 AcDbEntity
   8
@@ -1199,7 +1075,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 36.126778
  20
@@ -1239,7 +1115,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-110
+10f
 100
 AcDbEntity
   8
@@ -1267,7 +1143,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-111
+110
 100
 AcDbEntity
   8
@@ -1295,7 +1171,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-112
+111
 100
 AcDbEntity
   8
@@ -1321,71 +1197,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-113
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-54.535802
- 20
--0.333576
- 30
-0.0
- 10
-54.424245
- 20
--0.304027
- 30
-0.0
- 10
-54.316462
- 20
--0.261242
- 30
-0.0
- 10
-54.213247
- 20
--0.207931
- 30
-0.0
-  0
 LWPOLYLINE
   5
-114
+112
 100
 AcDbEntity
   8
@@ -1413,7 +1227,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-115
+113
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+54.535802
+ 20
+-0.333576
+ 30
+0.0
+ 10
+54.213247
+ 20
+-0.207931
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+114
 100
 AcDbEntity
   8
@@ -1453,7 +1295,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-116
+115
 100
 AcDbEntity
   8
@@ -1465,7 +1307,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 54.213247
  20
@@ -1505,7 +1347,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-117
+116
 100
 AcDbEntity
   8
@@ -1533,7 +1375,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-118
+117
 100
 AcDbEntity
   8
@@ -1561,7 +1403,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-119
+118
 100
 AcDbEntity
   8
@@ -1587,71 +1429,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-11a
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-72.452967
- 20
--0.299480
- 30
-0.0
- 10
-72.341410
- 20
--0.269931
- 30
-0.0
- 10
-72.233626
- 20
--0.227146
- 30
-0.0
- 10
-72.130412
- 20
--0.173835
- 30
-0.0
-  0
 LWPOLYLINE
   5
-11b
+119
 100
 AcDbEntity
   8
@@ -1679,7 +1459,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-11c
+11a
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+72.452967
+ 20
+-0.299480
+ 30
+0.0
+ 10
+72.130412
+ 20
+-0.173835
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+11b
 100
 AcDbEntity
   8
@@ -1719,7 +1527,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-11d
+11c
 100
 AcDbEntity
   8
@@ -1731,7 +1539,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 72.130412
  20
@@ -1771,7 +1579,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-11e
+11d
 100
 AcDbEntity
   8
@@ -1799,7 +1607,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-11f
+11e
 100
 AcDbEntity
   8
@@ -1827,7 +1635,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-120
+11f
 100
 AcDbEntity
   8
@@ -1853,71 +1661,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-121
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-90.440784
- 20
--0.281203
- 30
-0.0
- 10
-90.329227
- 20
--0.251654
- 30
-0.0
- 10
-90.221443
- 20
--0.208870
- 30
-0.0
- 10
-90.118229
- 20
--0.155558
- 30
-0.0
-  0
 LWPOLYLINE
   5
-122
+120
 100
 AcDbEntity
   8
@@ -1945,7 +1691,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-123
+121
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+90.440784
+ 20
+-0.281203
+ 30
+0.0
+ 10
+90.118229
+ 20
+-0.155558
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+122
 100
 AcDbEntity
   8
@@ -1985,7 +1759,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-124
+123
 100
 AcDbEntity
   8
@@ -1997,7 +1771,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 90.118229
  20
@@ -2037,7 +1811,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-125
+124
 100
 AcDbEntity
   8
@@ -2065,7 +1839,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-126
+125
 100
 AcDbEntity
   8
@@ -2093,7 +1867,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-127
+126
 100
 AcDbEntity
   8
@@ -2119,71 +1893,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-128
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-108.323854
- 20
--0.275111
- 30
-0.0
- 10
-108.212297
- 20
--0.245562
- 30
-0.0
- 10
-108.104514
- 20
--0.202777
- 30
-0.0
- 10
-108.001300
- 20
--0.149465
- 30
-0.0
-  0
 LWPOLYLINE
   5
-129
+127
 100
 AcDbEntity
   8
@@ -2211,7 +1923,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-12a
+128
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+108.323854
+ 20
+-0.275111
+ 30
+0.0
+ 10
+108.001300
+ 20
+-0.149465
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+129
 100
 AcDbEntity
   8
@@ -2251,7 +1991,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-12b
+12a
 100
 AcDbEntity
   8
@@ -2263,7 +2003,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 108.001300
  20
@@ -2303,7 +2043,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-12c
+12b
 100
 AcDbEntity
   8
@@ -2331,7 +2071,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-12d
+12c
 100
 AcDbEntity
   8
@@ -2359,7 +2099,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-12e
+12d
 100
 AcDbEntity
   8
@@ -2385,71 +2125,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-12f
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-126.452969
- 20
--0.351853
- 30
-0.0
- 10
-126.341412
- 20
--0.322304
- 30
-0.0
- 10
-126.233628
- 20
--0.279519
- 30
-0.0
- 10
-126.130414
- 20
--0.226207
- 30
-0.0
-  0
 LWPOLYLINE
   5
-130
+12e
 100
 AcDbEntity
   8
@@ -2477,7 +2155,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-131
+12f
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+126.452969
+ 20
+-0.351853
+ 30
+0.0
+ 10
+126.130414
+ 20
+-0.226207
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+130
 100
 AcDbEntity
   8
@@ -2517,7 +2223,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-132
+131
 100
 AcDbEntity
   8
@@ -2529,7 +2235,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 126.130414
  20
@@ -2569,7 +2275,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-133
+132
 100
 AcDbEntity
   8
@@ -2597,7 +2303,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-134
+133
 100
 AcDbEntity
   8
@@ -2625,7 +2331,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-135
+134
 100
 AcDbEntity
   8
@@ -2651,71 +2357,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-136
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.446876
- 20
--0.339668
- 30
-0.0
- 10
-144.335319
- 20
--0.310120
- 30
-0.0
- 10
-144.227536
- 20
--0.267335
- 30
-0.0
- 10
-144.124322
- 20
--0.214023
- 30
-0.0
-  0
 LWPOLYLINE
   5
-137
+135
 100
 AcDbEntity
   8
@@ -2743,7 +2387,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-138
+136
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+144.446876
+ 20
+-0.339668
+ 30
+0.0
+ 10
+144.124322
+ 20
+-0.214023
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+137
 100
 AcDbEntity
   8
@@ -2783,7 +2455,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-139
+138
 100
 AcDbEntity
   8
@@ -2795,7 +2467,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 144.124322
  20
@@ -2835,7 +2507,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-13a
+139
 100
 AcDbEntity
   8
@@ -2863,7 +2535,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-13b
+13a
 100
 AcDbEntity
   8
@@ -2891,7 +2563,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-13c
+13b
 100
 AcDbEntity
   8
@@ -2917,71 +2589,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-13d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-162.515307
- 20
--0.336521
- 30
-0.0
- 10
-162.403750
- 20
--0.306973
- 30
-0.0
- 10
-162.295967
- 20
--0.264188
- 30
-0.0
- 10
-162.192753
- 20
--0.210876
- 30
-0.0
-  0
 LWPOLYLINE
   5
-13e
+13c
 100
 AcDbEntity
   8
@@ -3009,7 +2619,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-13f
+13d
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+162.515307
+ 20
+-0.336521
+ 30
+0.0
+ 10
+162.192753
+ 20
+-0.210876
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+13e
 100
 AcDbEntity
   8
@@ -3049,7 +2687,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-140
+13f
 100
 AcDbEntity
   8
@@ -3061,7 +2699,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 162.192753
  20
@@ -3101,7 +2739,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-141
+140
 100
 AcDbEntity
   8
@@ -3129,7 +2767,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-142
+141
 100
 AcDbEntity
   8
@@ -3157,7 +2795,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-143
+142
 100
 AcDbEntity
   8
@@ -3183,71 +2821,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-144
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-180.476677
- 20
--0.410830
- 30
-0.0
- 10
-180.365121
- 20
--0.381281
- 30
-0.0
- 10
-180.257337
- 20
--0.338496
- 30
-0.0
- 10
-180.154123
- 20
--0.285184
- 30
-0.0
-  0
 LWPOLYLINE
   5
-145
+143
 100
 AcDbEntity
   8
@@ -3275,7 +2851,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-146
+144
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+180.476677
+ 20
+-0.410830
+ 30
+0.0
+ 10
+180.154123
+ 20
+-0.285184
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+145
 100
 AcDbEntity
   8
@@ -3315,7 +2919,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-147
+146
 100
 AcDbEntity
   8
@@ -3327,7 +2931,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 180.154123
  20
@@ -3367,7 +2971,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-148
+147
 100
 AcDbEntity
   8
@@ -3395,7 +2999,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-149
+148
 100
 AcDbEntity
   8
@@ -3423,7 +3027,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-14a
+149
 100
 AcDbEntity
   8
@@ -3449,71 +3053,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-14b
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-216.454756
- 20
--0.274300
- 30
-0.0
- 10
-216.343199
- 20
--0.244751
- 30
-0.0
- 10
-216.235415
- 20
--0.201966
- 30
-0.0
- 10
-216.132201
- 20
--0.148654
- 30
-0.0
-  0
 LWPOLYLINE
   5
-14c
+14a
 100
 AcDbEntity
   8
@@ -3541,7 +3083,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-14d
+14b
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+216.454756
+ 20
+-0.274300
+ 30
+0.0
+ 10
+216.132201
+ 20
+-0.148654
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+14c
 100
 AcDbEntity
   8
@@ -3581,7 +3151,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-14e
+14d
 100
 AcDbEntity
   8
@@ -3593,7 +3163,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 216.132201
  20
@@ -3633,7 +3203,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-14f
+14e
 100
 AcDbEntity
   8
@@ -3661,7 +3231,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-150
+14f
 100
 AcDbEntity
   8
@@ -3689,7 +3259,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-151
+150
 100
 AcDbEntity
   8
@@ -3715,71 +3285,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-152
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-198.514744
- 20
--0.397898
- 30
-0.0
- 10
-198.403187
- 20
--0.368350
- 30
-0.0
- 10
-198.295404
- 20
--0.325565
- 30
-0.0
- 10
-198.192190
- 20
--0.272253
- 30
-0.0
-  0
 LWPOLYLINE
   5
-153
+151
 100
 AcDbEntity
   8
@@ -3807,7 +3315,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-154
+152
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+198.514744
+ 20
+-0.397898
+ 30
+0.0
+ 10
+198.192190
+ 20
+-0.272253
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+153
 100
 AcDbEntity
   8
@@ -3847,7 +3383,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-155
+154
 100
 AcDbEntity
   8
@@ -3859,7 +3395,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 198.192190
  20
@@ -3899,7 +3435,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-156
+155
 100
 AcDbEntity
   8
@@ -3927,7 +3463,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-157
+156
 100
 AcDbEntity
   8
@@ -3955,7 +3491,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-158
+157
 100
 AcDbEntity
   8
@@ -3983,7 +3519,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-159
+158
 100
 AcDbEntity
   8
@@ -4011,7 +3547,7 @@ AcDbPolyline
   0
 SPLINE
   5
-15a
+159
 100
 AcDbEntity
   8
@@ -4073,7 +3609,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-15b
+15a
 100
 AcDbEntity
   8
@@ -4113,7 +3649,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-15c
+15b
 100
 AcDbEntity
   8
@@ -4165,7 +3701,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-15d
+15c
 100
 AcDbEntity
   8
@@ -4193,7 +3729,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-15e
+15d
 100
 AcDbEntity
   8
@@ -4221,7 +3757,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-15f
+15e
 100
 AcDbEntity
   8
@@ -4249,7 +3785,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-160
+15f
 100
 AcDbEntity
   8
@@ -4275,195 +3811,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-161
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-18.558840
- 20
-8.322819
- 30
-0.0
- 10
-18.695247
- 20
-8.336930
- 30
-0.0
- 10
-18.831655
- 20
-8.353393
- 30
-0.0
- 10
-18.968062
- 20
-8.372208
- 30
-0.0
-  0
-SPLINE
-  5
-162
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-18.968062
- 20
-8.372208
- 30
-0.0
- 10
-19.179729
- 20
-8.400430
- 30
-0.0
- 10
-19.299673
- 20
-8.428653
- 30
-0.0
- 10
-19.327895
- 20
-8.456875
- 30
-0.0
-  0
-SPLINE
-  5
-163
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-19.327895
- 20
-8.456875
- 30
-0.0
- 10
-19.356118
- 20
-8.485097
- 30
-0.0
- 10
-19.389044
- 20
-8.576819
- 30
-0.0
- 10
-19.426673
- 20
-8.732042
- 30
-0.0
-  0
 LWPOLYLINE
   5
-164
+160
 100
 AcDbEntity
   8
@@ -4501,9 +3851,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-165
+161
 100
 AcDbEntity
   8
@@ -4511,61 +3861,39 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-20.096951
+18.558840
  20
-11.617764
+8.322819
  30
 0.0
  10
-20.026395
+18.968062
  20
-11.589542
+8.372208
  30
 0.0
  10
-19.762988
+19.327895
  20
-11.490764
+8.456875
  30
 0.0
  10
-19.306729
+19.426673
  20
-11.321430
+8.732042
  30
 0.0
   0
 LWPOLYLINE
   5
-166
+162
 100
 AcDbEntity
   8
@@ -4577,7 +3905,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 20.837784
  20
@@ -4615,9 +3943,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-167
+163
 100
 AcDbEntity
   8
@@ -4625,123 +3953,27 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+2
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-19.095062
+20.096951
  20
-11.427264
+11.617764
  30
 0.0
  10
-19.363173
+19.306729
  20
-11.540153
- 30
-0.0
- 10
-19.915858
- 20
-11.810616
- 30
-0.0
- 10
-20.753118
- 20
-12.238653
- 30
-0.0
-  0
-SPLINE
-  5
-168
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-20.753118
- 20
-12.238653
- 30
-0.0
- 10
-20.461488
- 20
-11.105060
- 30
-0.0
- 10
-20.226303
- 20
-10.093764
- 30
-0.0
- 10
-20.047562
- 20
-9.204764
+11.321430
  30
 0.0
   0
 LWPOLYLINE
   5
-169
+164
 100
 AcDbEntity
   8
@@ -4753,7 +3985,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 19.426673
  20
@@ -4779,9 +4011,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-16a
+165
 100
 AcDbEntity
   8
@@ -4789,185 +4021,33 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
+AcDbPolyline
+ 90
 3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-19.927618
- 20
-8.619153
- 30
-0.0
- 10
-19.927618
- 20
-8.614449
- 30
-0.0
- 10
-19.927618
- 20
-8.612097
- 30
-0.0
- 10
-19.927618
- 20
-8.612097
- 30
-0.0
-  0
-SPLINE
-  5
-16b
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-19.927618
+19.095062
  20
-8.612097
+11.427264
  30
 0.0
  10
-19.927618
+20.753118
  20
-8.508616
+12.238653
  30
 0.0
  10
-19.988766
+20.047562
  20
-8.438060
- 30
-0.0
- 10
-20.111062
- 20
-8.400430
- 30
-0.0
-  0
-SPLINE
-  5
-16c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-20.111062
- 20
-8.400430
- 30
-0.0
- 10
-20.275692
- 20
-8.348690
- 30
-0.0
- 10
-20.517933
- 20
-8.322819
- 30
-0.0
- 10
-20.837784
- 20
-8.322819
+9.204764
  30
 0.0
   0
 LWPOLYLINE
   5
-16d
+166
 100
 AcDbEntity
   8
@@ -4979,7 +4059,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 19.306729
  20
@@ -5007,7 +4087,59 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-16e
+167
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+19.927618
+ 20
+8.619153
+ 30
+0.0
+ 10
+19.927618
+ 20
+8.612097
+ 30
+0.0
+ 10
+19.973479
+ 20
+8.481569
+ 30
+0.0
+ 10
+20.111062
+ 20
+8.400430
+ 30
+0.0
+ 10
+20.416215
+ 20
+8.342222
+ 30
+0.0
+ 10
+20.837784
+ 20
+8.322819
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+168
 100
 AcDbEntity
   8
@@ -5019,7 +4151,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 20.047562
  20
@@ -5045,9 +4177,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-16f
+169
 100
 AcDbEntity
   8
@@ -5055,61 +4187,39 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-24.519094
+20.837784
  20
--18.212560
+8.322819
  30
 0.0
  10
-24.407537
+20.837784
  20
--18.183011
+8.322819
  30
 0.0
  10
-24.299753
+20.837784
  20
--18.140226
+8.322819
  30
 0.0
  10
-24.196539
+20.837784
  20
--18.086914
+8.322819
  30
 0.0
   0
 SPLINE
   5
-170
+16a
 100
 AcDbEntity
   8
@@ -5171,7 +4281,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-171
+16b
 100
 AcDbEntity
   8
@@ -5181,37 +4291,25 @@ Layer_1
 100
 AcDbPolyline
  90
-4
+2
  70
-1
+0
  10
-20.837784
+24.519094
  20
-8.322819
+-18.212560
  30
 0.0
  10
-20.837784
+24.196539
  20
-8.322819
- 30
-0.0
- 10
-20.837784
- 20
-8.322819
- 30
-0.0
- 10
-20.837784
- 20
-8.322819
+-18.086914
  30
 0.0
   0
 LWPOLYLINE
   5
-172
+16c
 100
 AcDbEntity
   8
@@ -5263,7 +4361,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-173
+16d
 100
 AcDbEntity
   8
@@ -5291,7 +4389,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-174
+16e
 100
 AcDbEntity
   8
@@ -5319,7 +4417,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-175
+16f
 100
 AcDbEntity
   8
@@ -5347,7 +4445,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-176
+170
 100
 AcDbEntity
   8
@@ -5375,7 +4473,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-177
+171
 100
 AcDbEntity
   8
@@ -5415,7 +4513,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-178
+172
 100
 AcDbEntity
   8
@@ -5427,7 +4525,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 24.196539
  20
@@ -5467,7 +4565,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-179
+173
 100
 AcDbEntity
   8
@@ -5495,7 +4593,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-17a
+174
 100
 AcDbEntity
   8
@@ -5523,7 +4621,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-17b
+175
 100
 AcDbEntity
   8
@@ -5549,71 +4647,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-17c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-42.474395
- 20
--18.204612
- 30
-0.0
- 10
-42.362838
- 20
--18.175064
- 30
-0.0
- 10
-42.255055
- 20
--18.132279
- 30
-0.0
- 10
-42.151840
- 20
--18.078967
- 30
-0.0
-  0
 LWPOLYLINE
   5
-17d
+176
 100
 AcDbEntity
   8
@@ -5641,7 +4677,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-17e
+177
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+42.474395
+ 20
+-18.204612
+ 30
+0.0
+ 10
+42.151840
+ 20
+-18.078967
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+178
 100
 AcDbEntity
   8
@@ -5681,7 +4745,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-17f
+179
 100
 AcDbEntity
   8
@@ -5693,7 +4757,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 42.151840
  20
@@ -5733,7 +4797,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-180
+17a
 100
 AcDbEntity
   8
@@ -5761,7 +4825,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-181
+17b
 100
 AcDbEntity
   8
@@ -5789,7 +4853,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-182
+17c
 100
 AcDbEntity
   8
@@ -5815,71 +4879,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-183
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-60.560864
- 20
--18.170516
- 30
-0.0
- 10
-60.449307
- 20
--18.140968
- 30
-0.0
- 10
-60.341524
- 20
--18.098183
- 30
-0.0
- 10
-60.238310
- 20
--18.044871
- 30
-0.0
-  0
 LWPOLYLINE
   5
-184
+17d
 100
 AcDbEntity
   8
@@ -5907,7 +4909,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-185
+17e
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+60.560864
+ 20
+-18.170516
+ 30
+0.0
+ 10
+60.238310
+ 20
+-18.044871
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+17f
 100
 AcDbEntity
   8
@@ -5947,7 +4977,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-186
+180
 100
 AcDbEntity
   8
@@ -5959,7 +4989,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 60.238310
  20
@@ -5999,7 +5029,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-187
+181
 100
 AcDbEntity
   8
@@ -6027,7 +5057,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-188
+182
 100
 AcDbEntity
   8
@@ -6055,7 +5085,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-189
+183
 100
 AcDbEntity
   8
@@ -6081,71 +5111,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-18a
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-78.478029
- 20
--18.136420
- 30
-0.0
- 10
-78.366472
- 20
--18.106871
- 30
-0.0
- 10
-78.258689
- 20
--18.064087
- 30
-0.0
- 10
-78.155474
- 20
--18.010775
- 30
-0.0
-  0
 LWPOLYLINE
   5
-18b
+184
 100
 AcDbEntity
   8
@@ -6173,7 +5141,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-18c
+185
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+78.478029
+ 20
+-18.136420
+ 30
+0.0
+ 10
+78.155474
+ 20
+-18.010775
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+186
 100
 AcDbEntity
   8
@@ -6213,7 +5209,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-18d
+187
 100
 AcDbEntity
   8
@@ -6225,7 +5221,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 78.155474
  20
@@ -6265,7 +5261,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-18e
+188
 100
 AcDbEntity
   8
@@ -6293,7 +5289,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-18f
+189
 100
 AcDbEntity
   8
@@ -6321,7 +5317,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-190
+18a
 100
 AcDbEntity
   8
@@ -6347,71 +5343,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-191
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-96.465846
- 20
--18.118143
- 30
-0.0
- 10
-96.354289
- 20
--18.088595
- 30
-0.0
- 10
-96.246506
- 20
--18.045810
- 30
-0.0
- 10
-96.143291
- 20
--17.992498
- 30
-0.0
-  0
 LWPOLYLINE
   5
-192
+18b
 100
 AcDbEntity
   8
@@ -6439,7 +5373,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-193
+18c
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+96.465846
+ 20
+-18.118143
+ 30
+0.0
+ 10
+96.143291
+ 20
+-17.992498
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+18d
 100
 AcDbEntity
   8
@@ -6479,7 +5441,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-194
+18e
 100
 AcDbEntity
   8
@@ -6491,7 +5453,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 96.143291
  20
@@ -6531,7 +5493,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-195
+18f
 100
 AcDbEntity
   8
@@ -6559,7 +5521,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-196
+190
 100
 AcDbEntity
   8
@@ -6587,7 +5549,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-197
+191
 100
 AcDbEntity
   8
@@ -6613,71 +5575,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-198
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-114.348916
- 20
--18.112051
- 30
-0.0
- 10
-114.237360
- 20
--18.082502
- 30
-0.0
- 10
-114.129576
- 20
--18.039718
- 30
-0.0
- 10
-114.026362
- 20
--17.986406
- 30
-0.0
-  0
 LWPOLYLINE
   5
-199
+192
 100
 AcDbEntity
   8
@@ -6705,7 +5605,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-19a
+193
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+114.348916
+ 20
+-18.112051
+ 30
+0.0
+ 10
+114.026362
+ 20
+-17.986406
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+194
 100
 AcDbEntity
   8
@@ -6745,7 +5673,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-19b
+195
 100
 AcDbEntity
   8
@@ -6757,7 +5685,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 114.026362
  20
@@ -6797,7 +5725,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-19c
+196
 100
 AcDbEntity
   8
@@ -6825,7 +5753,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-19d
+197
 100
 AcDbEntity
   8
@@ -6853,7 +5781,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-19e
+198
 100
 AcDbEntity
   8
@@ -6879,71 +5807,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-19f
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-132.478031
- 20
--18.188793
- 30
-0.0
- 10
-132.366474
- 20
--18.159244
- 30
-0.0
- 10
-132.258691
- 20
--18.116460
- 30
-0.0
- 10
-132.155476
- 20
--18.063148
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1a0
+199
 100
 AcDbEntity
   8
@@ -6971,7 +5837,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a1
+19a
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+132.478031
+ 20
+-18.188793
+ 30
+0.0
+ 10
+132.155476
+ 20
+-18.063148
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+19b
 100
 AcDbEntity
   8
@@ -7011,7 +5905,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a2
+19c
 100
 AcDbEntity
   8
@@ -7023,7 +5917,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 132.155476
  20
@@ -7063,7 +5957,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a3
+19d
 100
 AcDbEntity
   8
@@ -7091,7 +5985,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a4
+19e
 100
 AcDbEntity
   8
@@ -7119,7 +6013,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a5
+19f
 100
 AcDbEntity
   8
@@ -7145,71 +6039,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1a6
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-150.471938
- 20
--18.176609
- 30
-0.0
- 10
-150.360382
- 20
--18.147060
- 30
-0.0
- 10
-150.252598
- 20
--18.104275
- 30
-0.0
- 10
-150.149384
- 20
--18.050963
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1a7
+1a0
 100
 AcDbEntity
   8
@@ -7237,7 +6069,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a8
+1a1
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+150.471938
+ 20
+-18.176609
+ 30
+0.0
+ 10
+150.149384
+ 20
+-18.050963
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1a2
 100
 AcDbEntity
   8
@@ -7277,7 +6137,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1a9
+1a3
 100
 AcDbEntity
   8
@@ -7289,7 +6149,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 150.149384
  20
@@ -7329,7 +6189,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1aa
+1a4
 100
 AcDbEntity
   8
@@ -7357,7 +6217,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ab
+1a5
 100
 AcDbEntity
   8
@@ -7385,7 +6245,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ac
+1a6
 100
 AcDbEntity
   8
@@ -7411,71 +6271,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1ad
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-168.540370
- 20
--18.173462
- 30
-0.0
- 10
-168.428813
- 20
--18.143913
- 30
-0.0
- 10
-168.321029
- 20
--18.101128
- 30
-0.0
- 10
-168.217815
- 20
--18.047816
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1ae
+1a7
 100
 AcDbEntity
   8
@@ -7503,7 +6301,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1af
+1a8
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+168.540370
+ 20
+-18.173462
+ 30
+0.0
+ 10
+168.217815
+ 20
+-18.047816
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1a9
 100
 AcDbEntity
   8
@@ -7543,7 +6369,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b0
+1aa
 100
 AcDbEntity
   8
@@ -7555,7 +6381,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 168.217815
  20
@@ -7595,7 +6421,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b1
+1ab
 100
 AcDbEntity
   8
@@ -7623,7 +6449,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b2
+1ac
 100
 AcDbEntity
   8
@@ -7651,7 +6477,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b3
+1ad
 100
 AcDbEntity
   8
@@ -7677,71 +6503,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1b4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-186.501740
- 20
--18.247770
- 30
-0.0
- 10
-186.390183
- 20
--18.218221
- 30
-0.0
- 10
-186.282399
- 20
--18.175437
- 30
-0.0
- 10
-186.179185
- 20
--18.122125
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1b5
+1ae
 100
 AcDbEntity
   8
@@ -7769,7 +6533,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b6
+1af
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+186.501740
+ 20
+-18.247770
+ 30
+0.0
+ 10
+186.179185
+ 20
+-18.122125
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1b0
 100
 AcDbEntity
   8
@@ -7809,7 +6601,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b7
+1b1
 100
 AcDbEntity
   8
@@ -7821,7 +6613,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 186.179185
  20
@@ -7861,7 +6653,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b8
+1b2
 100
 AcDbEntity
   8
@@ -7889,7 +6681,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1b9
+1b3
 100
 AcDbEntity
   8
@@ -7917,7 +6709,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ba
+1b4
 100
 AcDbEntity
   8
@@ -7945,7 +6737,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1bb
+1b5
 100
 AcDbEntity
   8
@@ -7971,71 +6763,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1bc
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-204.539807
- 20
--18.234839
- 30
-0.0
- 10
-204.428250
- 20
--18.205290
- 30
-0.0
- 10
-204.320466
- 20
--18.162505
- 30
-0.0
- 10
-204.217252
- 20
--18.109193
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1bd
+1b6
 100
 AcDbEntity
   8
@@ -8075,7 +6805,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1be
+1b7
 100
 AcDbEntity
   8
@@ -8085,9 +6815,15 @@ Layer_1
 100
 AcDbPolyline
  90
-6
+7
  70
-1
+0
+ 10
+204.539807
+ 20
+-18.234839
+ 30
+0.0
  10
 204.217252
  20
@@ -8127,7 +6863,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1bf
+1b8
 100
 AcDbEntity
   8
@@ -8155,7 +6891,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c0
+1b9
 100
 AcDbEntity
   8
@@ -8183,7 +6919,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c1
+1ba
 100
 AcDbEntity
   8
@@ -8211,7 +6947,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c2
+1bb
 100
 AcDbEntity
   8
@@ -8237,71 +6973,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1c3
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
--2.761075
- 20
-17.680511
- 30
-0.0
- 10
--2.872632
- 20
-17.710060
- 30
-0.0
- 10
--2.980415
- 20
-17.752844
- 30
-0.0
- 10
--3.083629
- 20
-17.806156
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1c4
+1bc
 100
 AcDbEntity
   8
@@ -8341,7 +7015,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c5
+1bd
 100
 AcDbEntity
   8
@@ -8351,9 +7025,15 @@ Layer_1
 100
 AcDbPolyline
  90
-6
+7
  70
-1
+0
+ 10
+-2.761075
+ 20
+17.680511
+ 30
+0.0
  10
 -3.083629
  20
@@ -8393,7 +7073,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c6
+1be
 100
 AcDbEntity
   8
@@ -8421,7 +7101,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c7
+1bf
 100
 AcDbEntity
   8
@@ -8449,7 +7129,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1c8
+1c0
 100
 AcDbEntity
   8
@@ -8475,71 +7155,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1c9
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-15.317720
- 20
-17.614099
- 30
-0.0
- 10
-15.206163
- 20
-17.643647
- 30
-0.0
- 10
-15.098380
- 20
-17.686432
- 30
-0.0
- 10
-14.995165
- 20
-17.739744
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1ca
+1c1
 100
 AcDbEntity
   8
@@ -8567,7 +7185,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1cb
+1c2
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+15.317720
+ 20
+17.614099
+ 30
+0.0
+ 10
+14.995165
+ 20
+17.739744
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1c3
 100
 AcDbEntity
   8
@@ -8607,7 +7253,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1cc
+1c4
 100
 AcDbEntity
   8
@@ -8619,7 +7265,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 14.995165
  20
@@ -8659,7 +7305,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1cd
+1c5
 100
 AcDbEntity
   8
@@ -8687,7 +7333,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ce
+1c6
 100
 AcDbEntity
   8
@@ -8715,7 +7361,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1cf
+1c7
 100
 AcDbEntity
   8
@@ -8741,71 +7387,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1d0
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-33.273021
- 20
-17.622046
- 30
-0.0
- 10
-33.161465
- 20
-17.651594
- 30
-0.0
- 10
-33.053681
- 20
-17.694379
- 30
-0.0
- 10
-32.950467
- 20
-17.747691
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1d1
+1c8
 100
 AcDbEntity
   8
@@ -8833,7 +7417,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1d2
+1c9
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+33.273021
+ 20
+17.622046
+ 30
+0.0
+ 10
+32.950467
+ 20
+17.747691
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1ca
 100
 AcDbEntity
   8
@@ -8873,7 +7485,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1d3
+1cb
 100
 AcDbEntity
   8
@@ -8885,7 +7497,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 32.950467
  20
@@ -8925,7 +7537,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1d4
+1cc
 100
 AcDbEntity
   8
@@ -8953,7 +7565,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1d5
+1cd
 100
 AcDbEntity
   8
@@ -8981,7 +7593,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1d6
+1ce
 100
 AcDbEntity
   8
@@ -9007,71 +7619,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1d7
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-51.359491
- 20
-17.656142
- 30
-0.0
- 10
-51.247934
- 20
-17.685691
- 30
-0.0
- 10
-51.140150
- 20
-17.728476
- 30
-0.0
- 10
-51.036936
- 20
-17.781787
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1d8
+1cf
 100
 AcDbEntity
   8
@@ -9099,7 +7649,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1d9
+1d0
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+51.359491
+ 20
+17.656142
+ 30
+0.0
+ 10
+51.036936
+ 20
+17.781787
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1d1
 100
 AcDbEntity
   8
@@ -9139,7 +7717,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1da
+1d2
 100
 AcDbEntity
   8
@@ -9151,7 +7729,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 51.036936
  20
@@ -9191,7 +7769,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1db
+1d3
 100
 AcDbEntity
   8
@@ -9219,7 +7797,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1dc
+1d4
 100
 AcDbEntity
   8
@@ -9247,7 +7825,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1dd
+1d5
 100
 AcDbEntity
   8
@@ -9273,71 +7851,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1de
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-69.276655
- 20
-17.690238
- 30
-0.0
- 10
-69.165099
- 20
-17.719787
- 30
-0.0
- 10
-69.057315
- 20
-17.762572
- 30
-0.0
- 10
-68.954101
- 20
-17.815883
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1df
+1d6
 100
 AcDbEntity
   8
@@ -9365,7 +7881,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e0
+1d7
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+69.276655
+ 20
+17.690238
+ 30
+0.0
+ 10
+68.954101
+ 20
+17.815883
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1d8
 100
 AcDbEntity
   8
@@ -9405,7 +7949,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e1
+1d9
 100
 AcDbEntity
   8
@@ -9417,7 +7961,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 68.954101
  20
@@ -9457,7 +8001,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e2
+1da
 100
 AcDbEntity
   8
@@ -9485,7 +8029,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e3
+1db
 100
 AcDbEntity
   8
@@ -9513,7 +8057,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e4
+1dc
 100
 AcDbEntity
   8
@@ -9539,71 +8083,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1e5
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-87.264473
- 20
-17.708515
- 30
-0.0
- 10
-87.152916
- 20
-17.738064
- 30
-0.0
- 10
-87.045132
- 20
-17.780848
- 30
-0.0
- 10
-86.941918
- 20
-17.834160
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1e6
+1dd
 100
 AcDbEntity
   8
@@ -9631,7 +8113,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e7
+1de
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+87.264473
+ 20
+17.708515
+ 30
+0.0
+ 10
+86.941918
+ 20
+17.834160
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1df
 100
 AcDbEntity
   8
@@ -9671,7 +8181,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e8
+1e0
 100
 AcDbEntity
   8
@@ -9683,7 +8193,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 86.941918
  20
@@ -9723,7 +8233,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1e9
+1e1
 100
 AcDbEntity
   8
@@ -9751,7 +8261,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ea
+1e2
 100
 AcDbEntity
   8
@@ -9779,7 +8289,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1eb
+1e3
 100
 AcDbEntity
   8
@@ -9805,71 +8315,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1ec
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-105.147543
- 20
-17.714607
- 30
-0.0
- 10
-105.035986
- 20
-17.744156
- 30
-0.0
- 10
-104.928203
- 20
-17.786941
- 30
-0.0
- 10
-104.824988
- 20
-17.840252
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1ed
+1e4
 100
 AcDbEntity
   8
@@ -9897,7 +8345,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ee
+1e5
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+105.147543
+ 20
+17.714607
+ 30
+0.0
+ 10
+104.824988
+ 20
+17.840252
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1e6
 100
 AcDbEntity
   8
@@ -9937,7 +8413,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ef
+1e7
 100
 AcDbEntity
   8
@@ -9949,7 +8425,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 104.824988
  20
@@ -9989,7 +8465,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f0
+1e8
 100
 AcDbEntity
   8
@@ -10017,7 +8493,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f1
+1e9
 100
 AcDbEntity
   8
@@ -10045,7 +8521,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f2
+1ea
 100
 AcDbEntity
   8
@@ -10071,71 +8547,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1f3
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-123.276657
- 20
-17.637865
- 30
-0.0
- 10
-123.165101
- 20
-17.667414
- 30
-0.0
- 10
-123.057317
- 20
-17.710199
- 30
-0.0
- 10
-122.954103
- 20
-17.763510
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1f4
+1eb
 100
 AcDbEntity
   8
@@ -10163,7 +8577,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f5
+1ec
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+123.276657
+ 20
+17.637865
+ 30
+0.0
+ 10
+122.954103
+ 20
+17.763510
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1ed
 100
 AcDbEntity
   8
@@ -10203,7 +8645,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f6
+1ee
 100
 AcDbEntity
   8
@@ -10215,7 +8657,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 122.954103
  20
@@ -10255,7 +8697,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f7
+1ef
 100
 AcDbEntity
   8
@@ -10283,7 +8725,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f8
+1f0
 100
 AcDbEntity
   8
@@ -10311,7 +8753,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1f9
+1f1
 100
 AcDbEntity
   8
@@ -10337,71 +8779,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-1fa
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-141.270565
- 20
-17.650050
- 30
-0.0
- 10
-141.159008
- 20
-17.679598
- 30
-0.0
- 10
-141.051225
- 20
-17.722383
- 30
-0.0
- 10
-140.948010
- 20
-17.775695
- 30
-0.0
-  0
 LWPOLYLINE
   5
-1fb
+1f2
 100
 AcDbEntity
   8
@@ -10429,7 +8809,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1fc
+1f3
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+141.270565
+ 20
+17.650050
+ 30
+0.0
+ 10
+140.948010
+ 20
+17.775695
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1f4
 100
 AcDbEntity
   8
@@ -10469,7 +8877,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1fd
+1f5
 100
 AcDbEntity
   8
@@ -10481,7 +8889,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 140.948010
  20
@@ -10521,7 +8929,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1fe
+1f6
 100
 AcDbEntity
   8
@@ -10549,7 +8957,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1ff
+1f7
 100
 AcDbEntity
   8
@@ -10577,7 +8985,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-200
+1f8
 100
 AcDbEntity
   8
@@ -10603,71 +9011,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-201
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-159.338996
- 20
-17.653196
- 30
-0.0
- 10
-159.227439
- 20
-17.682745
- 30
-0.0
- 10
-159.119656
- 20
-17.725530
- 30
-0.0
- 10
-159.016441
- 20
-17.778842
- 30
-0.0
-  0
 LWPOLYLINE
   5
-202
+1f9
 100
 AcDbEntity
   8
@@ -10695,7 +9041,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-203
+1fa
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+159.338996
+ 20
+17.653196
+ 30
+0.0
+ 10
+159.016441
+ 20
+17.778842
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+1fb
 100
 AcDbEntity
   8
@@ -10735,7 +9109,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-204
+1fc
 100
 AcDbEntity
   8
@@ -10747,7 +9121,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 159.016441
  20
@@ -10787,7 +9161,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-205
+1fd
 100
 AcDbEntity
   8
@@ -10815,7 +9189,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-206
+1fe
 100
 AcDbEntity
   8
@@ -10843,7 +9217,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-207
+1ff
 100
 AcDbEntity
   8
@@ -10869,71 +9243,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-208
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-177.300366
- 20
-17.578888
- 30
-0.0
- 10
-177.188809
- 20
-17.608437
- 30
-0.0
- 10
-177.081026
- 20
-17.651222
- 30
-0.0
- 10
-176.977812
- 20
-17.704533
- 30
-0.0
-  0
 LWPOLYLINE
   5
-209
+200
 100
 AcDbEntity
   8
@@ -10961,7 +9273,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-20a
+201
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+177.300366
+ 20
+17.578888
+ 30
+0.0
+ 10
+176.977812
+ 20
+17.704533
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+202
 100
 AcDbEntity
   8
@@ -11001,7 +9341,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-20b
+203
 100
 AcDbEntity
   8
@@ -11013,7 +9353,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 176.977812
  20
@@ -11053,7 +9393,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-20c
+204
 100
 AcDbEntity
   8
@@ -11081,7 +9421,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-20d
+205
 100
 AcDbEntity
   8
@@ -11109,7 +9449,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-20e
+206
 100
 AcDbEntity
   8
@@ -11135,71 +9475,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-20f
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-213.278445
- 20
-17.715418
- 30
-0.0
- 10
-213.166888
- 20
-17.744967
- 30
-0.0
- 10
-213.059104
- 20
-17.787752
- 30
-0.0
- 10
-212.955890
- 20
-17.841064
- 30
-0.0
-  0
 LWPOLYLINE
   5
-210
+207
 100
 AcDbEntity
   8
@@ -11227,7 +9505,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-211
+208
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+213.278445
+ 20
+17.715418
+ 30
+0.0
+ 10
+212.955890
+ 20
+17.841064
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+209
 100
 AcDbEntity
   8
@@ -11267,7 +9573,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-212
+20a
 100
 AcDbEntity
   8
@@ -11279,7 +9585,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 212.955890
  20
@@ -11319,7 +9625,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-213
+20b
 100
 AcDbEntity
   8
@@ -11347,7 +9653,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-214
+20c
 100
 AcDbEntity
   8
@@ -11375,7 +9681,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-215
+20d
 100
 AcDbEntity
   8
@@ -11401,71 +9707,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-216
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-195.338433
- 20
-17.591820
- 30
-0.0
- 10
-195.226876
- 20
-17.621368
- 30
-0.0
- 10
-195.119093
- 20
-17.664153
- 30
-0.0
- 10
-195.015878
- 20
-17.717465
- 30
-0.0
-  0
 LWPOLYLINE
   5
-217
+20e
 100
 AcDbEntity
   8
@@ -11493,7 +9737,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-218
+20f
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+195.338433
+ 20
+17.591820
+ 30
+0.0
+ 10
+195.015878
+ 20
+17.717465
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+210
 100
 AcDbEntity
   8
@@ -11533,7 +9805,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-219
+211
 100
 AcDbEntity
   8
@@ -11545,7 +9817,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 195.015878
  20
@@ -11585,7 +9857,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-21a
+212
 100
 AcDbEntity
   8
@@ -11613,7 +9885,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-21b
+213
 100
 AcDbEntity
   8
@@ -11641,7 +9913,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-21c
+214
 100
 AcDbEntity
   8
@@ -11667,71 +9939,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-21d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-231.249297
- 20
-17.724675
- 30
-0.0
- 10
-231.137741
- 20
-17.754224
- 30
-0.0
- 10
-231.029957
- 20
-17.797009
- 30
-0.0
- 10
-230.926743
- 20
-17.850321
- 30
-0.0
-  0
 LWPOLYLINE
   5
-21e
+215
 100
 AcDbEntity
   8
@@ -11759,7 +9969,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-21f
+216
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+231.249297
+ 20
+17.724675
+ 30
+0.0
+ 10
+230.926743
+ 20
+17.850321
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+217
 100
 AcDbEntity
   8
@@ -11799,7 +10037,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-220
+218
 100
 AcDbEntity
   8
@@ -11811,7 +10049,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 230.926743
  20
@@ -11851,7 +10089,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-221
+219
 100
 AcDbEntity
   8
@@ -11879,7 +10117,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-222
+21a
 100
 AcDbEntity
   8
@@ -11907,7 +10145,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-223
+21b
 100
 AcDbEntity
   8
@@ -11935,7 +10173,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-224
+21c
 100
 AcDbEntity
   8
@@ -11961,9 +10199,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-225
+21d
 100
 AcDbEntity
   8
@@ -11971,61 +10209,39 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-32.590075
+230.729731
  20
--35.363953
+18.140487
  30
 0.0
  10
-32.478518
+230.729731
  20
--35.334404
+6.155127
  30
 0.0
  10
-32.370734
+242.715088
  20
--35.291619
+6.096679
  30
 0.0
  10
-32.267520
+242.656622
  20
--35.238308
+18.140487
  30
 0.0
   0
 SPLINE
   5
-226
+21e
 100
 AcDbEntity
   8
@@ -12087,7 +10303,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-227
+21f
 100
 AcDbEntity
   8
@@ -12097,37 +10313,25 @@ Layer_1
 100
 AcDbPolyline
  90
-4
+2
  70
 0
  10
-230.729731
+32.590075
  20
-18.140487
+-35.363953
  30
 0.0
  10
-230.729731
+32.267520
  20
-6.155127
- 30
-0.0
- 10
-242.715088
- 20
-6.096679
- 30
-0.0
- 10
-242.656622
- 20
-18.140487
+-35.238308
  30
 0.0
   0
 LWPOLYLINE
   5
-228
+220
 100
 AcDbEntity
   8
@@ -12179,7 +10383,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-229
+221
 100
 AcDbEntity
   8
@@ -12207,7 +10411,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-22a
+222
 100
 AcDbEntity
   8
@@ -12235,7 +10439,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-22b
+223
 100
 AcDbEntity
   8
@@ -12263,7 +10467,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-22c
+224
 100
 AcDbEntity
   8
@@ -12291,7 +10495,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-22d
+225
 100
 AcDbEntity
   8
@@ -12331,7 +10535,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-22e
+226
 100
 AcDbEntity
   8
@@ -12343,7 +10547,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 32.267520
  20
@@ -12383,7 +10587,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-22f
+227
 100
 AcDbEntity
   8
@@ -12411,7 +10615,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-230
+228
 100
 AcDbEntity
   8
@@ -12439,7 +10643,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-231
+229
 100
 AcDbEntity
   8
@@ -12465,71 +10669,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-232
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-50.545376
- 20
--35.356006
- 30
-0.0
- 10
-50.433819
- 20
--35.326457
- 30
-0.0
- 10
-50.326036
- 20
--35.283672
- 30
-0.0
- 10
-50.222821
- 20
--35.230360
- 30
-0.0
-  0
 LWPOLYLINE
   5
-233
+22a
 100
 AcDbEntity
   8
@@ -12557,7 +10699,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-234
+22b
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+50.545376
+ 20
+-35.356006
+ 30
+0.0
+ 10
+50.222821
+ 20
+-35.230360
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+22c
 100
 AcDbEntity
   8
@@ -12597,7 +10767,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-235
+22d
 100
 AcDbEntity
   8
@@ -12609,7 +10779,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 50.222821
  20
@@ -12649,7 +10819,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-236
+22e
 100
 AcDbEntity
   8
@@ -12677,7 +10847,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-237
+22f
 100
 AcDbEntity
   8
@@ -12705,7 +10875,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-238
+230
 100
 AcDbEntity
   8
@@ -12731,71 +10901,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-239
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-68.631845
- 20
--35.321909
- 30
-0.0
- 10
-68.520288
- 20
--35.292361
- 30
-0.0
- 10
-68.412505
- 20
--35.249576
- 30
-0.0
- 10
-68.309290
- 20
--35.196264
- 30
-0.0
-  0
 LWPOLYLINE
   5
-23a
+231
 100
 AcDbEntity
   8
@@ -12823,7 +10931,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-23b
+232
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+68.631845
+ 20
+-35.321909
+ 30
+0.0
+ 10
+68.309290
+ 20
+-35.196264
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+233
 100
 AcDbEntity
   8
@@ -12863,7 +10999,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-23c
+234
 100
 AcDbEntity
   8
@@ -12875,7 +11011,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 68.309290
  20
@@ -12915,7 +11051,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-23d
+235
 100
 AcDbEntity
   8
@@ -12943,7 +11079,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-23e
+236
 100
 AcDbEntity
   8
@@ -12971,7 +11107,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-23f
+237
 100
 AcDbEntity
   8
@@ -12997,71 +11133,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-240
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-86.549010
- 20
--35.287813
- 30
-0.0
- 10
-86.437453
- 20
--35.258265
- 30
-0.0
- 10
-86.329670
- 20
--35.215480
- 30
-0.0
- 10
-86.226455
- 20
--35.162168
- 30
-0.0
-  0
 LWPOLYLINE
   5
-241
+238
 100
 AcDbEntity
   8
@@ -13089,7 +11163,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-242
+239
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+86.549010
+ 20
+-35.287813
+ 30
+0.0
+ 10
+86.226455
+ 20
+-35.162168
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+23a
 100
 AcDbEntity
   8
@@ -13129,7 +11231,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-243
+23b
 100
 AcDbEntity
   8
@@ -13141,7 +11243,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 86.226455
  20
@@ -13181,7 +11283,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-244
+23c
 100
 AcDbEntity
   8
@@ -13209,7 +11311,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-245
+23d
 100
 AcDbEntity
   8
@@ -13237,7 +11339,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-246
+23e
 100
 AcDbEntity
   8
@@ -13263,71 +11365,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-247
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-104.536827
- 20
--35.269537
- 30
-0.0
- 10
-104.425270
- 20
--35.239988
- 30
-0.0
- 10
-104.317487
- 20
--35.197203
- 30
-0.0
- 10
-104.214272
- 20
--35.143891
- 30
-0.0
-  0
 LWPOLYLINE
   5
-248
+23f
 100
 AcDbEntity
   8
@@ -13355,7 +11395,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-249
+240
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+104.536827
+ 20
+-35.269537
+ 30
+0.0
+ 10
+104.214272
+ 20
+-35.143891
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+241
 100
 AcDbEntity
   8
@@ -13395,7 +11463,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-24a
+242
 100
 AcDbEntity
   8
@@ -13407,7 +11475,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 104.214272
  20
@@ -13447,7 +11515,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-24b
+243
 100
 AcDbEntity
   8
@@ -13475,7 +11543,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-24c
+244
 100
 AcDbEntity
   8
@@ -13503,7 +11571,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-24d
+245
 100
 AcDbEntity
   8
@@ -13529,71 +11597,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-24e
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-122.419897
- 20
--35.263444
- 30
-0.0
- 10
-122.308341
- 20
--35.233896
- 30
-0.0
- 10
-122.200557
- 20
--35.191111
- 30
-0.0
- 10
-122.097343
- 20
--35.137799
- 30
-0.0
-  0
 LWPOLYLINE
   5
-24f
+246
 100
 AcDbEntity
   8
@@ -13621,7 +11627,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-250
+247
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+122.419897
+ 20
+-35.263444
+ 30
+0.0
+ 10
+122.097343
+ 20
+-35.137799
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+248
 100
 AcDbEntity
   8
@@ -13661,7 +11695,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-251
+249
 100
 AcDbEntity
   8
@@ -13673,7 +11707,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 122.097343
  20
@@ -13713,7 +11747,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-252
+24a
 100
 AcDbEntity
   8
@@ -13741,7 +11775,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-253
+24b
 100
 AcDbEntity
   8
@@ -13769,7 +11803,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-254
+24c
 100
 AcDbEntity
   8
@@ -13795,71 +11829,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-255
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-140.549012
- 20
--35.340186
- 30
-0.0
- 10
-140.437455
- 20
--35.310638
- 30
-0.0
- 10
-140.329672
- 20
--35.267853
- 30
-0.0
- 10
-140.226457
- 20
--35.214541
- 30
-0.0
-  0
 LWPOLYLINE
   5
-256
+24d
 100
 AcDbEntity
   8
@@ -13887,7 +11859,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-257
+24e
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+140.549012
+ 20
+-35.340186
+ 30
+0.0
+ 10
+140.226457
+ 20
+-35.214541
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+24f
 100
 AcDbEntity
   8
@@ -13927,7 +11927,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-258
+250
 100
 AcDbEntity
   8
@@ -13939,7 +11939,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 140.226457
  20
@@ -13979,7 +11979,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-259
+251
 100
 AcDbEntity
   8
@@ -14007,7 +12007,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-25a
+252
 100
 AcDbEntity
   8
@@ -14035,7 +12035,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-25b
+253
 100
 AcDbEntity
   8
@@ -14061,71 +12061,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-25c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-158.542919
- 20
--35.328002
- 30
-0.0
- 10
-158.431363
- 20
--35.298453
- 30
-0.0
- 10
-158.323579
- 20
--35.255668
- 30
-0.0
- 10
-158.220365
- 20
--35.202356
- 30
-0.0
-  0
 LWPOLYLINE
   5
-25d
+254
 100
 AcDbEntity
   8
@@ -14153,7 +12091,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-25e
+255
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+158.542919
+ 20
+-35.328002
+ 30
+0.0
+ 10
+158.220365
+ 20
+-35.202356
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+256
 100
 AcDbEntity
   8
@@ -14193,7 +12159,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-25f
+257
 100
 AcDbEntity
   8
@@ -14205,7 +12171,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 158.220365
  20
@@ -14245,7 +12211,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-260
+258
 100
 AcDbEntity
   8
@@ -14273,7 +12239,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-261
+259
 100
 AcDbEntity
   8
@@ -14301,7 +12267,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-262
+25a
 100
 AcDbEntity
   8
@@ -14327,71 +12293,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-263
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-176.611351
- 20
--35.324855
- 30
-0.0
- 10
-176.499794
- 20
--35.295306
- 30
-0.0
- 10
-176.392010
- 20
--35.252521
- 30
-0.0
- 10
-176.288796
- 20
--35.199210
- 30
-0.0
-  0
 LWPOLYLINE
   5
-264
+25b
 100
 AcDbEntity
   8
@@ -14419,7 +12323,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-265
+25c
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+176.611351
+ 20
+-35.324855
+ 30
+0.0
+ 10
+176.288796
+ 20
+-35.199210
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+25d
 100
 AcDbEntity
   8
@@ -14459,7 +12391,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-266
+25e
 100
 AcDbEntity
   8
@@ -14471,7 +12403,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 176.288796
  20
@@ -14511,7 +12443,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-267
+25f
 100
 AcDbEntity
   8
@@ -14539,7 +12471,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-268
+260
 100
 AcDbEntity
   8
@@ -14567,7 +12499,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-269
+261
 100
 AcDbEntity
   8
@@ -14593,71 +12525,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-26a
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-194.572721
- 20
--35.399163
- 30
-0.0
- 10
-194.461164
- 20
--35.369615
- 30
-0.0
- 10
-194.353380
- 20
--35.326830
- 30
-0.0
- 10
-194.250166
- 20
--35.273518
- 30
-0.0
-  0
 LWPOLYLINE
   5
-26b
+262
 100
 AcDbEntity
   8
@@ -14685,7 +12555,35 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-26c
+263
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+194.572721
+ 20
+-35.399163
+ 30
+0.0
+ 10
+194.250166
+ 20
+-35.273518
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+264
 100
 AcDbEntity
   8
@@ -14725,7 +12623,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-26d
+265
 100
 AcDbEntity
   8
@@ -14737,7 +12635,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 194.250166
  20
@@ -14777,7 +12675,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-26e
+266
 100
 AcDbEntity
   8
@@ -14805,7 +12703,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-26f
+267
 100
 AcDbEntity
   8
@@ -14833,7 +12731,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-270
+268
 100
 AcDbEntity
   8
@@ -14861,7 +12759,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-271
+269
 100
 AcDbEntity
   8
@@ -14887,71 +12785,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-272
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-212.610787
- 20
--35.386232
- 30
-0.0
- 10
-212.499231
- 20
--35.356683
- 30
-0.0
- 10
-212.391447
- 20
--35.313898
- 30
-0.0
- 10
-212.288233
- 20
--35.260586
- 30
-0.0
-  0
 LWPOLYLINE
   5
-273
+26a
 100
 AcDbEntity
   8
@@ -14991,7 +12827,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-274
+26b
 100
 AcDbEntity
   8
@@ -15001,9 +12837,15 @@ Layer_1
 100
 AcDbPolyline
  90
-6
+7
  70
-1
+0
+ 10
+212.610787
+ 20
+-35.386232
+ 30
+0.0
  10
 212.288233
  20
@@ -15043,7 +12885,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-275
+26c
 100
 AcDbEntity
   8
@@ -15071,7 +12913,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-276
+26d
 100
 AcDbEntity
   8
@@ -15099,7 +12941,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-277
+26e
 100
 AcDbEntity
   8
@@ -15127,7 +12969,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-278
+26f
 100
 AcDbEntity
   8
@@ -15153,1311 +12995,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-279
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-26.020907
- 20
--9.972236
- 30
-0.0
- 10
-25.517611
- 20
--10.503755
- 30
-0.0
- 10
-25.011963
- 20
--10.769514
- 30
-0.0
- 10
-24.503963
- 20
--10.769514
- 30
-0.0
-  0
-SPLINE
-  5
-27a
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-24.503963
- 20
--10.769514
- 30
-0.0
- 10
-24.315814
- 20
--10.769514
- 30
-0.0
- 10
-24.120611
- 20
--10.727181
- 30
-0.0
- 10
-23.918351
- 20
--10.642514
- 30
-0.0
-  0
-SPLINE
-  5
-27b
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.918351
- 20
--10.642514
- 30
-0.0
- 10
-23.551463
- 20
--10.487292
- 30
-0.0
- 10
-23.045814
- 20
--10.096884
- 30
-0.0
- 10
-22.401407
- 20
--9.471292
- 30
-0.0
-  0
-SPLINE
-  5
-27c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-22.401407
- 20
--9.471292
- 30
-0.0
- 10
-22.260296
- 20
--9.499514
- 30
-0.0
- 10
-22.123888
- 20
--9.513625
- 30
-0.0
- 10
-21.992185
- 20
--9.513625
- 30
-0.0
-  0
-SPLINE
-  5
-27d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-21.992185
- 20
--9.513625
- 30
-0.0
- 10
-21.164333
- 20
--9.513625
- 30
-0.0
- 10
-20.750407
- 20
--9.057366
- 30
-0.0
- 10
-20.750407
- 20
--8.144847
- 30
-0.0
-  0
-SPLINE
-  5
-27e
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-20.750407
- 20
--8.144847
- 30
-0.0
- 10
-20.750407
- 20
--6.841921
- 30
-0.0
- 10
-21.340722
- 20
--5.957625
- 30
-0.0
- 10
-22.521351
- 20
--5.491958
- 30
-0.0
-  0
-SPLINE
-  5
-27f
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-22.521351
- 20
--5.491958
- 30
-0.0
- 10
-22.855314
- 20
--5.360255
- 30
-0.0
- 10
-23.189277
- 20
--5.294403
- 30
-0.0
- 10
-23.523240
- 20
--5.294403
- 30
-0.0
-  0
-SPLINE
-  5
-280
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.523240
- 20
--5.294403
- 30
-0.0
- 10
-24.045351
- 20
--5.294403
- 30
-0.0
- 10
-24.391074
- 20
--5.553107
- 30
-0.0
- 10
-24.560407
- 20
--6.070514
- 30
-0.0
-  0
-SPLINE
-  5
-281
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-24.560407
- 20
--6.070514
- 30
-0.0
- 10
-24.607444
- 20
--6.211625
- 30
-0.0
- 10
-24.630963
- 20
--6.420940
- 30
-0.0
- 10
-24.630963
- 20
--6.698458
- 30
-0.0
-  0
-SPLINE
-  5
-282
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-24.630963
- 20
--6.698458
- 30
-0.0
- 10
-24.630963
- 20
--7.686236
- 30
-0.0
- 10
-24.297000
- 20
--8.431773
- 30
-0.0
- 10
-23.629074
- 20
--8.935070
- 30
-0.0
-  0
-SPLINE
-  5
-283
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.629074
- 20
--8.935070
- 30
-0.0
- 10
-23.478555
- 20
--9.047958
- 30
-0.0
- 10
-23.252777
- 20
--9.182014
- 30
-0.0
- 10
-22.951740
- 20
--9.337236
- 30
-0.0
-  0
-SPLINE
-  5
-284
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-22.951740
- 20
--9.337236
- 30
-0.0
- 10
-23.845444
- 20
--10.061607
- 30
-0.0
- 10
-24.515722
- 20
--10.423792
- 30
-0.0
- 10
-24.962574
- 20
--10.423792
- 30
-0.0
-  0
-SPLINE
-  5
-285
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-24.962574
- 20
--10.423792
- 30
-0.0
- 10
-25.352981
- 20
--10.423792
- 30
-0.0
- 10
-25.590518
- 20
--10.158033
- 30
-0.0
- 10
-25.675185
- 20
--9.626514
- 30
-0.0
-  0
-SPLINE
-  5
-286
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-24.052407
- 20
--6.896014
- 30
-0.0
- 10
-24.052407
- 20
--6.524421
- 30
-0.0
- 10
-23.979500
- 20
--6.223384
- 30
-0.0
- 10
-23.833685
- 20
--5.992903
- 30
-0.0
-  0
-SPLINE
-  5
-287
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.833685
- 20
--5.992903
- 30
-0.0
- 10
-23.659648
- 20
--5.715384
- 30
-0.0
- 10
-23.398592
- 20
--5.576625
- 30
-0.0
- 10
-23.050518
- 20
--5.576625
- 30
-0.0
-  0
-SPLINE
-  5
-288
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.050518
- 20
--5.576625
- 30
-0.0
- 10
-22.810629
- 20
--5.576625
- 30
-0.0
- 10
-22.587203
- 20
--5.637773
- 30
-0.0
- 10
-22.380240
- 20
--5.760070
- 30
-0.0
-  0
-SPLINE
-  5
-289
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-22.380240
- 20
--5.760070
- 30
-0.0
- 10
-22.027463
- 20
--5.967033
- 30
-0.0
- 10
-21.759351
- 20
--6.279829
- 30
-0.0
- 10
-21.575907
- 20
--6.698458
- 30
-0.0
-  0
-SPLINE
-  5
-28a
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-21.575907
- 20
--6.698458
- 30
-0.0
- 10
-21.411277
- 20
--7.070051
- 30
-0.0
- 10
-21.328963
- 20
--7.479273
- 30
-0.0
- 10
-21.328963
- 20
--7.926125
- 30
-0.0
-  0
-SPLINE
-  5
-28b
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-21.328963
- 20
--7.926125
- 30
-0.0
- 10
-21.328963
- 20
--8.264792
- 30
-0.0
- 10
-21.392463
- 20
--8.556421
- 30
-0.0
- 10
-21.519463
- 20
--8.801014
- 30
-0.0
-  0
-SPLINE
-  5
-28c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-21.519463
- 20
--8.801014
- 30
-0.0
- 10
-21.679388
- 20
--9.106755
- 30
-0.0
- 10
-21.912222
- 20
--9.259625
- 30
-0.0
- 10
-22.217963
- 20
--9.259625
- 30
-0.0
-  0
-SPLINE
-  5
-28d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-22.217963
- 20
--9.259625
- 30
-0.0
- 10
-22.344963
- 20
--9.259625
- 30
-0.0
- 10
-22.483722
- 20
--9.198477
- 30
-0.0
- 10
-22.634240
- 20
--9.076181
- 30
-0.0
-  0
 LWPOLYLINE
   5
-28e
+270
 100
 AcDbEntity
   8
@@ -16495,9 +13035,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-28f
+271
 100
 AcDbEntity
   8
@@ -16505,61 +13045,303 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+48
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-22.789463
+26.020907
  20
--9.210236
+-9.972236
  30
 0.0
  10
-23.001129
+25.642994
  20
--9.125570
+-10.321045
  30
 0.0
  10
-23.182222
+25.264199
  20
--9.017384
+-10.570195
  30
 0.0
  10
-23.332740
+24.884522
  20
--8.885681
+-10.719684
+ 30
+0.0
+ 10
+24.503963
+ 20
+-10.769514
+ 30
+0.0
+ 10
+24.216449
+ 20
+-10.737764
+ 30
+0.0
+ 10
+23.918351
+ 20
+-10.642514
+ 30
+0.0
+ 10
+23.617167
+ 20
+-10.482000
+ 30
+0.0
+ 10
+23.263949
+ 20
+-10.233292
+ 30
+0.0
+ 10
+22.401407
+ 20
+-9.471292
+ 30
+0.0
+ 10
+21.992185
+ 20
+-9.513625
+ 30
+0.0
+ 10
+21.701143
+ 20
+-9.492238
+ 30
+0.0
+ 10
+21.448907
+ 20
+-9.428077
+ 30
+0.0
+ 10
+21.235477
+ 20
+-9.321141
+ 30
+0.0
+ 10
+21.060851
+ 20
+-9.171431
+ 30
+0.0
+ 10
+20.925032
+ 20
+-8.978946
+ 30
+0.0
+ 10
+20.828018
+ 20
+-8.743688
+ 30
+0.0
+ 10
+20.769810
+ 20
+-8.465654
+ 30
+0.0
+ 10
+20.750407
+ 20
+-8.144847
+ 30
+0.0
+ 10
+20.778078
+ 20
+-7.675873
+ 30
+0.0
+ 10
+20.861091
+ 20
+-7.246146
+ 30
+0.0
+ 10
+20.999446
+ 20
+-6.855665
+ 30
+0.0
+ 10
+21.193143
+ 20
+-6.504430
+ 30
+0.0
+ 10
+21.442182
+ 20
+-6.192443
+ 30
+0.0
+ 10
+21.746563
+ 20
+-5.919701
+ 30
+0.0
+ 10
+22.106286
+ 20
+-5.686206
+ 30
+0.0
+ 10
+22.521351
+ 20
+-5.491958
+ 30
+0.0
+ 10
+23.022296
+ 20
+-5.343792
+ 30
+0.0
+ 10
+23.523240
+ 20
+-5.294403
+ 30
+0.0
+ 10
+23.881751
+ 20
+-5.342910
+ 30
+0.0
+ 10
+24.174115
+ 20
+-5.488431
+ 30
+0.0
+ 10
+24.400334
+ 20
+-5.730966
+ 30
+0.0
+ 10
+24.560407
+ 20
+-6.070514
+ 30
+0.0
+ 10
+24.613324
+ 20
+-6.333333
+ 30
+0.0
+ 10
+24.630963
+ 20
+-6.698458
+ 30
+0.0
+ 10
+24.568345
+ 20
+-7.393871
+ 30
+0.0
+ 10
+24.380491
+ 20
+-7.998444
+ 30
+0.0
+ 10
+24.067400
+ 20
+-8.512177
+ 30
+0.0
+ 10
+23.629074
+ 20
+-8.935070
+ 30
+0.0
+ 10
+22.951740
+ 20
+-9.337236
+ 30
+0.0
+ 10
+23.580126
+ 20
+-9.812604
+ 30
+0.0
+ 10
+24.124726
+ 20
+-10.152153
+ 30
+0.0
+ 10
+24.585543
+ 20
+-10.355882
+ 30
+0.0
+ 10
+24.962574
+ 20
+-10.423792
+ 30
+0.0
+ 10
+25.226716
+ 20
+-10.373962
+ 30
+0.0
+ 10
+25.433532
+ 20
+-10.224473
+ 30
+0.0
+ 10
+25.583022
+ 20
+-9.975323
+ 30
+0.0
+ 10
+25.675185
+ 20
+-9.626514
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-290
+272
 100
 AcDbEntity
   8
@@ -16567,123 +13349,153 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+23
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.332740
- 20
--8.885681
- 30
-0.0
- 10
-23.563222
- 20
--8.683421
- 30
-0.0
- 10
-23.744314
- 20
--8.377681
- 30
-0.0
- 10
-23.876018
- 20
--7.968458
- 30
-0.0
-  0
-SPLINE
-  5
-291
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-23.876018
- 20
--7.968458
- 30
-0.0
- 10
-23.993611
- 20
--7.610977
- 30
-0.0
- 10
-24.052407
- 20
--7.253495
- 30
-0.0
  10
 24.052407
  20
 -6.896014
  30
 0.0
+ 10
+23.997727
+ 20
+-6.391541
+ 30
+0.0
+ 10
+23.833685
+ 20
+-5.992903
+ 30
+0.0
+ 10
+23.686841
+ 20
+-5.810781
+ 30
+0.0
+ 10
+23.507365
+ 20
+-5.680694
+ 30
+0.0
+ 10
+23.295258
+ 20
+-5.602642
+ 30
+0.0
+ 10
+23.050518
+ 20
+-5.576625
+ 30
+0.0
+ 10
+22.703032
+ 20
+-5.622486
+ 30
+0.0
+ 10
+22.380240
+ 20
+-5.760070
+ 30
+0.0
+ 10
+22.131532
+ 20
+-5.935136
+ 30
+0.0
+ 10
+21.914574
+ 20
+-6.149889
+ 30
+0.0
+ 10
+21.729365
+ 20
+-6.404330
+ 30
+0.0
+ 10
+21.575907
+ 20
+-6.698458
+ 30
+0.0
+ 10
+21.390699
+ 20
+-7.284069
+ 30
+0.0
+ 10
+21.328963
+ 20
+-7.926125
+ 30
+0.0
+ 10
+21.376588
+ 20
+-8.398847
+ 30
+0.0
+ 10
+21.519463
+ 20
+-8.801014
+ 30
+0.0
+ 10
+21.653077
+ 20
+-9.001656
+ 30
+0.0
+ 10
+21.814032
+ 20
+-9.144972
+ 30
+0.0
+ 10
+22.002327
+ 20
+-9.230962
+ 30
+0.0
+ 10
+22.217963
+ 20
+-9.259625
+ 30
+0.0
+ 10
+22.417282
+ 20
+-9.213764
+ 30
+0.0
+ 10
+22.634240
+ 20
+-9.076181
+ 30
+0.0
   0
 LWPOLYLINE
   5
-292
+273
 100
 AcDbEntity
   8
@@ -16695,7 +13507,7 @@ AcDbPolyline
  90
 5
  70
-1
+0
  10
 25.675185
  20
@@ -16729,7 +13541,65 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-293
+274
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+7
+ 70
+0
+ 10
+22.789463
+ 20
+-9.210236
+ 30
+0.0
+ 10
+23.084032
+ 20
+-9.065597
+ 30
+0.0
+ 10
+23.332740
+ 20
+-8.885681
+ 30
+0.0
+ 10
+23.641421
+ 20
+-8.504681
+ 30
+0.0
+ 10
+23.876018
+ 20
+-7.968458
+ 30
+0.0
+ 10
+24.008310
+ 20
+-7.432236
+ 30
+0.0
+ 10
+24.052407
+ 20
+-6.896014
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+275
 100
 AcDbEntity
   8
@@ -16741,7 +13611,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 22.634240
  20
@@ -16767,319 +13637,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-294
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-30.861587
- 20
--27.214829
- 30
-0.0
- 10
-30.635809
- 20
--27.243051
- 30
-0.0
- 10
-30.297143
- 20
--27.290088
- 30
-0.0
- 10
-29.845587
- 20
--27.355940
- 30
-0.0
-  0
-SPLINE
-  5
-295
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.845587
- 20
--27.355940
- 30
-0.0
- 10
-29.742106
- 20
--27.374755
- 30
-0.0
- 10
-29.673902
- 20
--27.384162
- 30
-0.0
- 10
-29.640976
- 20
--27.384162
- 30
-0.0
-  0
-SPLINE
-  5
-296
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.640976
- 20
--27.384162
- 30
-0.0
- 10
-29.532791
- 20
--27.384162
- 30
-0.0
- 10
-29.478698
- 20
--27.346532
- 30
-0.0
- 10
-29.478698
- 20
--27.271273
- 30
-0.0
-  0
-SPLINE
-  5
-297
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.478698
- 20
--27.271273
- 30
-0.0
- 10
-29.478698
- 20
--27.275977
- 30
-0.0
- 10
-29.478698
- 20
--27.278329
- 30
-0.0
- 10
-29.478698
- 20
--27.278329
- 30
-0.0
-  0
-SPLINE
-  5
-298
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.478698
- 20
--27.278329
- 30
-0.0
- 10
-29.478698
- 20
--27.278329
- 30
-0.0
- 10
-29.481050
- 20
--27.268921
- 30
-0.0
- 10
-29.485754
- 20
--27.250106
- 30
-0.0
-  0
 LWPOLYLINE
   5
-299
+276
 100
 AcDbEntity
   8
@@ -17091,7 +13651,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 24.052407
  20
@@ -17117,9 +13677,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-29a
+277
 100
 AcDbEntity
   8
@@ -17127,33 +13687,109 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+7
  70
-8
- 71
-3
- 72
-8
- 73
+0
+ 10
+30.861587
+ 20
+-27.214829
+ 30
+0.0
+ 10
+29.845587
+ 20
+-27.355940
+ 30
+0.0
+ 10
+29.640976
+ 20
+-27.384162
+ 30
+0.0
+ 10
+29.519268
+ 20
+-27.355940
+ 30
+0.0
+ 10
+29.478698
+ 20
+-27.271273
+ 30
+0.0
+ 10
+29.478698
+ 20
+-27.278329
+ 30
+0.0
+ 10
+29.485754
+ 20
+-27.250106
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+278
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+ 10
+30.861587
+ 20
+-27.214829
+ 30
+0.0
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+279
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+8
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 29.492809
  20
@@ -17161,77 +13797,9 @@ AcDbSpline
  30
 0.0
  10
-29.521031
- 20
--26.939662
- 30
-0.0
- 10
-29.572772
- 20
--26.558662
- 30
-0.0
- 10
 29.648031
  20
 -26.050662
- 30
-0.0
-  0
-SPLINE
-  5
-29b
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.648031
- 20
--26.050662
- 30
-0.0
- 10
-29.375217
- 20
--26.031847
- 30
-0.0
- 10
-28.958939
- 20
--26.022440
  30
 0.0
  10
@@ -17240,106 +13808,6 @@ AcDbSpline
 -26.022440
  30
 0.0
-  0
-SPLINE
-  5
-29c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-28.399198
- 20
--26.022440
- 30
-0.0
- 10
-28.088754
- 20
--26.379921
- 30
-0.0
- 10
-27.872383
- 20
--26.617458
- 30
-0.0
- 10
-27.750087
- 20
--26.735051
- 30
-0.0
-  0
-SPLINE
-  5
-29d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 27.750087
  20
@@ -17347,15 +13815,9 @@ AcDbSpline
  30
 0.0
  10
-27.444346
+27.333809
  20
--27.040792
- 30
-0.0
- 10
-27.195050
- 20
--27.221884
+-27.100176
  30
 0.0
  10
@@ -17364,122 +13826,10 @@ AcDbSpline
 -27.278329
  30
 0.0
-  0
-SPLINE
-  5
-29e
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-27.002198
- 20
--27.278329
- 30
-0.0
- 10
-26.875198
- 20
--27.315958
- 30
-0.0
- 10
-26.762309
- 20
--27.334773
- 30
-0.0
  10
 26.663531
  20
 -27.334773
- 30
-0.0
-  0
-SPLINE
-  5
-29f
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-26.663531
- 20
--27.334773
- 30
-0.0
- 10
-26.560050
- 20
--27.334773
- 30
-0.0
- 10
-26.435402
- 20
--27.313606
  30
 0.0
  10
@@ -17491,7 +13841,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-2a0
+27a
 100
 AcDbEntity
   8
@@ -17503,233 +13853,7 @@ AcDbPolyline
  90
 4
  70
-1
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
- 10
-30.861587
- 20
--27.214829
- 30
-0.0
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
-  0
-SPLINE
-  5
-2a1
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-26.557698
- 20
--26.777384
- 30
-0.0
- 10
-26.618846
- 20
--26.810310
- 30
-0.0
- 10
-26.722328
- 20
--26.826773
- 30
-0.0
- 10
-26.868143
- 20
--26.826773
- 30
-0.0
-  0
-SPLINE
-  5
-2a2
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-26.868143
- 20
--26.826773
- 30
-0.0
- 10
-27.032772
- 20
--26.826773
- 30
-0.0
- 10
-27.176235
- 20
--26.798551
- 30
-0.0
- 10
-27.298531
- 20
--26.742106
- 30
-0.0
-  0
-SPLINE
-  5
-2a3
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-27.298531
- 20
--26.742106
- 30
-0.0
- 10
-27.566643
- 20
--26.615106
- 30
-0.0
- 10
-28.011143
- 20
--26.151792
- 30
-0.0
- 10
-28.632031
- 20
--25.352162
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-2a4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-4
- 70
-1
  10
 29.485754
  20
@@ -17755,9 +13879,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2a5
+27b
 100
 AcDbEntity
   8
@@ -17765,33 +13889,109 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+7
  70
-8
- 71
-3
- 72
-8
- 73
+0
+ 10
+26.557698
+ 20
+-26.777384
+ 30
+0.0
+ 10
+26.868143
+ 20
+-26.826773
+ 30
+0.0
+ 10
+27.099212
+ 20
+-26.805606
+ 30
+0.0
+ 10
+27.298531
+ 20
+-26.742106
+ 30
+0.0
+ 10
+27.532688
+ 20
+-26.583797
+ 30
+0.0
+ 10
+27.832990
+ 20
+-26.299370
+ 30
+0.0
+ 10
+28.632031
+ 20
+-25.352162
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+27c
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
+ 10
+26.289587
+ 20
+-27.271273
+ 30
+0.0
+ 10
+26.557698
+ 20
+-26.777384
+ 30
+0.0
+ 10
+26.289587
+ 20
+-27.271273
+ 30
+0.0
+ 10
+26.289587
+ 20
+-27.271273
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+27d
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+9
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 29.852643
  20
@@ -17799,77 +13999,9 @@ AcDbSpline
  30
 0.0
  10
-29.749161
- 20
--23.767014
- 30
-0.0
- 10
-29.591587
- 20
--23.755255
- 30
-0.0
- 10
 29.379920
  20
 -23.736440
- 30
-0.0
-  0
-SPLINE
-  5
-2a6
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.379920
- 20
--23.736440
- 30
-0.0
- 10
-29.064772
- 20
--23.703514
- 30
-0.0
- 10
-28.883680
- 20
--23.687051
  30
 0.0
  10
@@ -17878,60 +14010,22 @@ AcDbSpline
 -23.687051
  30
 0.0
-  0
-SPLINE
-  5
-2a7
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-28.836643
+28.478573
  20
--23.687051
+-23.727179
  30
 0.0
  10
-28.291013
+28.222809
  20
--23.687051
+-23.847565
  30
 0.0
  10
-28.018198
+28.069351
  20
--23.901069
+-24.048207
  30
 0.0
  10
@@ -17940,60 +14034,10 @@ AcDbSpline
 -24.329106
  30
 0.0
-  0
-SPLINE
-  5
-2a8
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-28.018198
+28.055240
  20
--24.329106
- 30
-0.0
- 10
-28.018198
- 20
--24.479625
- 30
-0.0
- 10
-28.067587
- 20
--24.698347
+-24.606037
  30
 0.0
  10
@@ -18005,7 +14049,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-2a9
+27e
 100
 AcDbEntity
   8
@@ -18017,481 +14061,7 @@ AcDbPolyline
  90
 4
  70
-1
- 10
-26.289587
- 20
--27.271273
- 30
-0.0
- 10
-26.557698
- 20
--26.777384
- 30
-0.0
- 10
-26.289587
- 20
--27.271273
- 30
-0.0
- 10
-26.289587
- 20
--27.271273
- 30
-0.0
-  0
-SPLINE
-  5
-2aa
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-27.644254
- 20
--25.267495
- 30
-0.0
- 10
-27.578402
- 20
--25.055829
- 30
-0.0
- 10
-27.545476
- 20
--24.895903
- 30
-0.0
- 10
-27.545476
- 20
--24.787718
- 30
-0.0
-  0
-SPLINE
-  5
-2ab
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-27.545476
- 20
--24.787718
- 30
-0.0
- 10
-27.545476
- 20
--24.594866
- 30
-0.0
- 10
-27.587809
- 20
--24.416125
- 30
-0.0
- 10
-27.672476
- 20
--24.251495
- 30
-0.0
-  0
-SPLINE
-  5
-2ac
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-27.672476
- 20
--24.251495
- 30
-0.0
- 10
-27.804180
- 20
--23.997495
- 30
-0.0
- 10
-27.999383
- 20
--23.771718
- 30
-0.0
- 10
-28.258087
- 20
--23.574162
- 30
-0.0
-  0
-SPLINE
-  5
-2ad
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-28.258087
- 20
--23.574162
- 30
-0.0
- 10
-28.540309
- 20
--23.357792
- 30
-0.0
- 10
-28.813124
- 20
--23.249606
- 30
-0.0
- 10
-29.076531
- 20
--23.249606
- 30
-0.0
-  0
-SPLINE
-  5
-2ae
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.076531
- 20
--23.249606
- 30
-0.0
- 10
-29.278791
- 20
--23.249606
- 30
-0.0
- 10
-29.492809
- 20
--23.273125
- 30
-0.0
- 10
-29.718587
- 20
--23.320162
- 30
-0.0
-  0
-SPLINE
-  5
-2af
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-29.718587
- 20
--23.320162
- 30
-0.0
- 10
-29.878513
- 20
--23.353088
- 30
-0.0
- 10
-30.012569
- 20
--23.369551
- 30
-0.0
- 10
-30.120754
- 20
--23.369551
- 30
-0.0
-  0
-SPLINE
-  5
-2b0
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-30.120754
- 20
--23.369551
- 30
-0.0
- 10
-30.219531
- 20
--23.369551
- 30
-0.0
- 10
-30.344180
- 20
--23.294292
- 30
-0.0
- 10
-30.494698
- 20
--23.143773
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-2b1
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-4
- 70
-1
  10
 28.632031
  20
@@ -18517,9 +14087,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2b2
+27f
 100
 AcDbEntity
   8
@@ -18527,309 +14097,87 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+12
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-30.593476
+27.644254
  20
--23.214329
+-25.267495
  30
 0.0
  10
-30.424143
+27.545476
  20
--24.070403
+-24.787718
  30
 0.0
  10
-30.273624
+27.577226
  20
--25.058181
+-24.509023
  30
 0.0
  10
-30.141920
+27.672476
  20
--26.177662
- 30
-0.0
-  0
-SPLINE
-  5
-2b3
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-30.141920
- 20
--26.177662
+-24.251495
  30
 0.0
  10
-30.108994
+27.917656
  20
--26.459884
+-23.891662
  30
 0.0
  10
-30.092531
+28.258087
  20
--26.655088
+-23.574162
  30
 0.0
  10
-30.092531
+28.674365
  20
--26.763273
- 30
-0.0
-  0
-SPLINE
-  5
-2b4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-30.092531
- 20
--26.763273
+-23.330745
  30
 0.0
  10
-30.092531
+29.076531
  20
--26.890273
+-23.249606
+ 30
+0.0
+ 10
+29.718587
+ 20
+-23.320162
  30
 0.0
  10
 30.120754
  20
--26.974940
+-23.369551
  30
 0.0
  10
-30.177198
+30.288323
  20
--27.017273
- 30
-0.0
-  0
-SPLINE
-  5
-2b5
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-30.177198
- 20
--27.017273
+-23.313107
  30
 0.0
  10
-30.233643
+30.494698
  20
--27.059606
- 30
-0.0
- 10
-30.325365
- 20
--27.080773
- 30
-0.0
- 10
-30.452365
- 20
--27.080773
- 30
-0.0
-  0
-SPLINE
-  5
-2b6
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-30.452365
- 20
--27.080773
- 30
-0.0
- 10
-30.508809
- 20
--27.080773
- 30
-0.0
- 10
-30.682846
- 20
--27.069014
- 30
-0.0
- 10
-30.974476
- 20
--27.045495
+-23.143773
  30
 0.0
   0
 LWPOLYLINE
   5
-2b7
+280
 100
 AcDbEntity
   8
@@ -18841,7 +14189,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 28.166365
  20
@@ -18869,7 +14217,77 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2b8
+281
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+9
+ 70
+0
+ 10
+30.593476
+ 20
+-23.214329
+ 30
+0.0
+ 10
+30.353587
+ 20
+-24.597218
+ 30
+0.0
+ 10
+30.141920
+ 20
+-26.177662
+ 30
+0.0
+ 10
+30.092531
+ 20
+-26.763273
+ 30
+0.0
+ 10
+30.113698
+ 20
+-26.922023
+ 30
+0.0
+ 10
+30.177198
+ 20
+-27.017273
+ 30
+0.0
+ 10
+30.288323
+ 20
+-27.064898
+ 30
+0.0
+ 10
+30.452365
+ 20
+-27.080773
+ 30
+0.0
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+282
 100
 AcDbEntity
   8
@@ -18881,7 +14299,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 30.494698
  20
@@ -18907,9 +14325,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2b9
+283
 100
 AcDbEntity
   8
@@ -18917,33 +14335,51 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+ 10
+30.974476
+ 20
+-27.045495
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+284
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+14
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 39.355254
  20
@@ -18951,15 +14387,9 @@ AcDbSpline
  30
 0.0
  10
-39.355254
+39.323504
  20
--43.350282
- 30
-0.0
- 10
-39.312921
- 20
--43.496097
+-43.416134
  30
 0.0
  10
@@ -18968,60 +14398,10 @@ AcDbSpline
 -43.613690
  30
 0.0
-  0
-SPLINE
-  5
-2ba
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-39.228254
+38.817268
  20
--43.613690
- 30
-0.0
- 10
-38.894291
- 20
--44.069949
- 30
-0.0
- 10
-38.680272
- 20
--44.328653
+-44.149912
  30
 0.0
  10
@@ -19030,60 +14410,10 @@ AcDbSpline
 -44.389801
  30
 0.0
-  0
-SPLINE
-  5
-2bb
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-38.586198
+38.349837
  20
--44.389801
- 30
-0.0
- 10
-38.435680
- 20
--44.488578
- 30
-0.0
- 10
-38.271050
- 20
--44.537967
+-44.500925
  30
 0.0
  10
@@ -19092,60 +14422,16 @@ AcDbSpline
 -44.537967
  30
 0.0
-  0
-SPLINE
-  5
-2bc
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-38.092309
+38.089223
  20
--44.537967
+-44.535762
  30
 0.0
  10
-38.153458
+37.988240
  20
--44.537967
- 30
-0.0
- 10
-37.953550
- 20
--44.526208
+-44.529148
  30
 0.0
  10
@@ -19154,122 +14440,10 @@ AcDbSpline
 -44.502690
  30
 0.0
-  0
-SPLINE
-  5
-2bd
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-37.492587
- 20
--44.502690
- 30
-0.0
- 10
-37.243291
- 20
--44.493282
- 30
-0.0
- 10
-36.871698
- 20
--44.469764
- 30
-0.0
  10
 36.377809
  20
 -44.432134
- 30
-0.0
-  0
-SPLINE
-  5
-2be
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.377809
- 20
--44.432134
- 30
-0.0
- 10
-36.095587
- 20
--44.403912
- 30
-0.0
- 10
-35.862754
- 20
--44.389801
  30
 0.0
  10
@@ -19278,60 +14452,10 @@ AcDbSpline
 -44.389801
  30
 0.0
-  0
-SPLINE
-  5
-2bf
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-35.679309
+35.352990
  20
--44.389801
- 30
-0.0
- 10
-35.462939
- 20
--44.389801
- 30
-0.0
- 10
-35.244217
- 20
--44.450949
+-44.435662
  30
 0.0
  10
@@ -19343,109 +14467,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-2c0
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
- 10
-30.974476
- 20
--27.045495
- 30
-0.0
-  0
-SPLINE
-  5
-2c1
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-35.023143
- 20
--44.354523
- 30
-0.0
- 10
-35.277143
- 20
--44.128745
- 30
-0.0
- 10
-35.632272
- 20
--43.787727
- 30
-0.0
- 10
-36.088532
- 20
--43.331467
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-2c2
+285
 100
 AcDbEntity
   8
@@ -19457,7 +14479,7 @@ AcDbPolyline
  90
 7
  70
-1
+0
  10
 29.979643
  20
@@ -19501,9 +14523,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2c3
+286
 100
 AcDbEntity
   8
@@ -19511,309 +14533,27 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+2
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-38.480365
+35.023143
  20
--40.939634
+-44.354523
  30
 0.0
  10
-38.198143
+36.088532
  20
--40.986671
- 30
-0.0
- 10
-37.925328
- 20
--41.010190
- 30
-0.0
- 10
-37.661921
- 20
--41.010190
- 30
-0.0
-  0
-SPLINE
-  5
-2c4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-37.661921
- 20
--41.010190
- 30
-0.0
- 10
-37.511402
- 20
--41.010190
- 30
-0.0
- 10
-37.360884
- 20
--41.003134
- 30
-0.0
- 10
-37.210365
- 20
--40.989023
- 30
-0.0
-  0
-SPLINE
-  5
-2c5
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-37.210365
- 20
--40.989023
- 30
-0.0
- 10
-36.909328
- 20
--40.960801
- 30
-0.0
- 10
-36.756458
- 20
--40.946690
- 30
-0.0
- 10
-36.751754
- 20
--40.946690
- 30
-0.0
-  0
-SPLINE
-  5
-2c6
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.751754
- 20
--40.946690
- 30
-0.0
- 10
-36.700013
- 20
--40.946690
- 30
-0.0
- 10
-36.652976
- 20
--40.953745
- 30
-0.0
- 10
-36.610643
- 20
--40.967856
- 30
-0.0
-  0
-SPLINE
-  5
-2c7
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.610643
- 20
--40.967856
- 30
-0.0
- 10
-36.540087
- 20
--40.991375
- 30
-0.0
- 10
-36.337828
- 20
--41.290060
- 30
-0.0
- 10
-36.003865
- 20
--41.863912
+-43.331467
  30
 0.0
   0
 LWPOLYLINE
   5
-2c8
+287
 100
 AcDbEntity
   8
@@ -19825,7 +14565,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 35.023143
  20
@@ -19851,9 +14591,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2c9
+288
 100
 AcDbEntity
   8
@@ -19861,371 +14601,57 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.349587
- 20
--40.671523
- 30
-0.0
- 10
-36.401328
- 20
--40.563338
- 30
-0.0
- 10
-36.441309
- 20
--40.495134
- 30
-0.0
- 10
-36.469532
- 20
--40.466912
- 30
-0.0
-  0
-SPLINE
-  5
-2ca
-100
-AcDbEntity
-  8
-Layer_1
- 62
+AcDbPolyline
+ 90
 7
-100
-AcDbSpline
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-36.469532
+38.480365
  20
--40.466912
+-40.939634
  30
 0.0
  10
-36.516569
+37.661921
  20
--40.424578
+-41.010190
  30
 0.0
  10
-36.591828
+37.210365
  20
--40.403412
+-40.989023
  30
 0.0
  10
-36.695309
+36.751754
  20
--40.403412
- 30
-0.0
-  0
-SPLINE
-  5
-2cb
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.695309
- 20
--40.403412
+-40.946690
  30
 0.0
  10
-36.784680
+36.610643
  20
--40.403412
+-40.967856
  30
 0.0
  10
-36.949309
+36.406032
  20
--40.419875
+-41.209509
  30
 0.0
  10
-37.189198
+36.003865
  20
--40.452801
- 30
-0.0
-  0
-SPLINE
-  5
-2cc
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-37.189198
- 20
--40.452801
- 30
-0.0
- 10
-37.353828
- 20
--40.466912
- 30
-0.0
- 10
-37.603124
- 20
--40.490430
- 30
-0.0
- 10
-37.937087
- 20
--40.523356
- 30
-0.0
-  0
-SPLINE
-  5
-2cd
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-37.937087
- 20
--40.523356
- 30
-0.0
- 10
-38.200495
- 20
--40.551578
- 30
-0.0
- 10
-38.388643
- 20
--40.565690
- 30
-0.0
- 10
-38.501532
- 20
--40.565690
- 30
-0.0
-  0
-SPLINE
-  5
-2ce
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-38.501532
- 20
--40.565690
- 30
-0.0
- 10
-38.750828
- 20
--40.565690
- 30
-0.0
- 10
-38.986013
- 20
--40.469264
- 30
-0.0
- 10
-39.207087
- 20
--40.276412
+-41.863912
  30
 0.0
   0
 LWPOLYLINE
   5
-2cf
+289
 100
 AcDbEntity
   8
@@ -20237,7 +14663,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 36.088532
  20
@@ -20263,9 +14689,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2d0
+28a
 100
 AcDbEntity
   8
@@ -20273,309 +14699,63 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+8
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-35.799254
+36.349587
  20
--43.952356
+-40.671523
  30
 0.0
  10
-35.963884
+36.469532
  20
--43.928838
+-40.466912
  30
 0.0
  10
-36.083828
+36.695309
  20
--43.917078
+-40.403412
  30
 0.0
  10
-36.159087
+37.189198
  20
--43.917078
- 30
-0.0
-  0
-SPLINE
-  5
-2d1
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-36.159087
- 20
--43.917078
+-40.452801
  30
 0.0
  10
-36.389569
+37.937087
  20
--43.917078
+-40.523356
  30
 0.0
  10
-36.735291
+38.501532
  20
--43.938245
+-40.565690
  30
 0.0
  10
-37.196254
+38.864893
  20
--43.980578
- 30
-0.0
-  0
-SPLINE
-  5
-2d2
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-37.196254
- 20
--43.980578
+-40.493371
  30
 0.0
  10
-37.657217
+39.207087
  20
--44.018208
- 30
-0.0
- 10
-38.002939
- 20
--44.037023
- 30
-0.0
- 10
-38.233421
- 20
--44.037023
- 30
-0.0
-  0
-SPLINE
-  5
-2d3
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-38.233421
- 20
--44.037023
- 30
-0.0
- 10
-38.689680
- 20
--44.037023
- 30
-0.0
- 10
-38.917809
- 20
--43.851227
- 30
-0.0
- 10
-38.917809
- 20
--43.479634
- 30
-0.0
-  0
-SPLINE
-  5
-2d4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-38.917809
- 20
--43.479634
- 30
-0.0
- 10
-38.917809
- 20
--43.347930
- 30
-0.0
- 10
-38.840198
- 20
--43.150375
- 30
-0.0
- 10
-38.684976
- 20
--42.886967
+-40.276412
  30
 0.0
   0
 LWPOLYLINE
   5
-2d5
+28b
 100
 AcDbEntity
   8
@@ -20587,7 +14767,7 @@ AcDbPolyline
  90
 5
  70
-1
+0
  10
 36.003865
  20
@@ -20619,9 +14799,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2d6
+28c
 100
 AcDbEntity
   8
@@ -20629,61 +14809,75 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+10
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-39.214143
+35.799254
  20
--42.569467
+-43.952356
  30
 0.0
  10
-39.308217
+36.159087
  20
--42.823467
+-43.917078
  30
 0.0
  10
-39.355254
+37.196254
  20
--43.025727
+-43.980578
  30
 0.0
  10
-39.355254
+38.233421
  20
--43.176245
+-44.037023
+ 30
+0.0
+ 10
+38.532841
+ 20
+-44.002186
+ 30
+0.0
+ 10
+38.746712
+ 20
+-43.897676
+ 30
+0.0
+ 10
+38.875035
+ 20
+-43.723492
+ 30
+0.0
+ 10
+38.917809
+ 20
+-43.479634
+ 30
+0.0
+ 10
+38.859601
+ 20
+-43.232689
+ 30
+0.0
+ 10
+38.684976
+ 20
+-42.886967
  30
 0.0
   0
 LWPOLYLINE
   5
-2d7
+28d
 100
 AcDbEntity
   8
@@ -20695,7 +14889,7 @@ AcDbPolyline
  90
 5
  70
-1
+0
  10
 39.207087
  20
@@ -20727,9 +14921,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2d8
+28e
 100
 AcDbEntity
   8
@@ -20737,123 +14931,33 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
+AcDbPolyline
+ 90
 3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-85.310802
- 20
--22.003482
- 30
-0.0
- 10
-85.291987
- 20
--22.069334
- 30
-0.0
- 10
-85.268469
- 20
--22.135186
- 30
-0.0
- 10
-85.240247
- 20
--22.201038
- 30
-0.0
-  0
-SPLINE
-  5
-2d9
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-85.240247
+39.214143
  20
--22.201038
+-42.569467
  30
 0.0
  10
-85.075617
+39.319976
  20
--22.309223
+-42.911662
  30
 0.0
  10
-84.927450
+39.355254
  20
--22.417408
- 30
-0.0
- 10
-84.795747
- 20
--22.525594
+-43.176245
  30
 0.0
   0
 LWPOLYLINE
   5
-2da
+28f
 100
 AcDbEntity
   8
@@ -20865,7 +14969,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 38.684976
  20
@@ -20891,9 +14995,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2db
+290
 100
 AcDbEntity
   8
@@ -20901,33 +15005,85 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
+AcDbPolyline
+ 90
 3
- 72
-8
- 73
+ 70
+0
+ 10
+85.310802
+ 20
+-22.003482
+ 30
+0.0
+ 10
+85.240247
+ 20
+-22.201038
+ 30
+0.0
+ 10
+84.795747
+ 20
+-22.525594
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+291
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
+ 10
+39.355254
+ 20
+-43.176245
+ 30
+0.0
+ 10
+39.355254
+ 20
+-43.176245
+ 30
+0.0
+ 10
+39.355254
+ 20
+-43.176245
+ 30
+0.0
+ 10
+39.355254
+ 20
+-43.176245
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+292
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+13
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 84.330080
  20
@@ -20935,77 +15091,9 @@ AcDbSpline
  30
 0.0
  10
-84.217191
- 20
--24.423538
- 30
-0.0
- 10
-84.120765
- 20
--24.491742
- 30
-0.0
- 10
 84.040802
  20
 -24.515260
- 30
-0.0
-  0
-SPLINE
-  5
-2dc
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-84.040802
- 20
--24.515260
- 30
-0.0
- 10
-83.918506
- 20
--24.552890
- 30
-0.0
- 10
-83.619821
- 20
--24.581112
  30
 0.0
  10
@@ -21014,106 +15102,6 @@ AcDbSpline
 -24.599927
  30
 0.0
-  0
-SPLINE
-  5
-2dd
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-83.144747
- 20
--24.599927
- 30
-0.0
- 10
-83.088302
- 20
--24.849223
- 30
-0.0
- 10
-83.029506
- 20
--25.100871
- 30
-0.0
- 10
-82.968358
- 20
--25.354871
- 30
-0.0
-  0
-SPLINE
-  5
-2de
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 82.968358
  20
@@ -21121,15 +15109,9 @@ AcDbSpline
  30
 0.0
  10
-82.893098
+82.839594
  20
--25.646501
- 30
-0.0
- 10
-82.796673
- 20
--25.881686
+-25.749982
  30
 0.0
  10
@@ -21138,60 +15120,10 @@ AcDbSpline
 -26.060427
  30
 0.0
-  0
-SPLINE
-  5
-2df
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-82.679080
+82.467413
  20
--26.060427
- 30
-0.0
- 10
-82.575598
- 20
--26.215649
- 30
-0.0
- 10
-82.396858
- 20
--26.396742
+-26.312663
  30
 0.0
  10
@@ -21200,122 +15132,28 @@ AcDbSpline
 -26.603705
  30
 0.0
-  0
-SPLINE
-  5
-2e0
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-82.142858
+81.820066
  20
--26.603705
+-26.838302
  30
 0.0
  10
-81.705413
+81.507858
  20
--26.961186
+-27.005871
  30
 0.0
  10
-81.296191
+81.206233
  20
--27.139927
+-27.106413
  30
 0.0
  10
 80.915191
  20
 -27.139927
- 30
-0.0
-  0
-SPLINE
-  5
-2e1
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-80.915191
- 20
--27.139927
- 30
-0.0
- 10
-80.825821
- 20
--27.139927
- 30
-0.0
- 10
-80.708228
- 20
--27.132871
  30
 0.0
  10
@@ -21327,295 +15165,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-2e2
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 10
-39.355254
- 20
--43.176245
- 30
-0.0
- 10
-39.355254
- 20
--43.176245
- 30
-0.0
- 10
-39.355254
- 20
--43.176245
- 30
-0.0
- 10
-39.355254
- 20
--43.176245
- 30
-0.0
-  0
-SPLINE
-  5
-2e3
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-80.837580
- 20
--26.660149
- 30
-0.0
- 10
-81.133913
- 20
--26.669557
- 30
-0.0
- 10
-81.291487
- 20
--26.674260
- 30
-0.0
- 10
-81.310302
- 20
--26.674260
- 30
-0.0
-  0
-SPLINE
-  5
-2e4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-81.310302
- 20
--26.674260
- 30
-0.0
- 10
-81.498450
- 20
--26.674260
- 30
-0.0
- 10
-81.639561
- 20
--26.660149
- 30
-0.0
- 10
-81.733636
- 20
--26.631927
- 30
-0.0
-  0
-SPLINE
-  5
-2e5
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-81.733636
- 20
--26.631927
- 30
-0.0
- 10
-81.973524
- 20
--26.561371
- 30
-0.0
- 10
-82.164024
- 20
--26.297964
- 30
-0.0
- 10
-82.305136
- 20
--25.841705
- 30
-0.0
-  0
-SPLINE
-  5
-2e6
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-82.305136
- 20
--25.841705
- 30
-0.0
- 10
-82.356876
- 20
--25.677075
- 30
-0.0
- 10
-82.399210
- 20
--25.526557
- 30
-0.0
- 10
-82.432136
- 20
--25.390149
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-2e7
+293
 100
 AcDbEntity
   8
@@ -21627,7 +15177,7 @@ AcDbPolyline
  90
 6
  70
-1
+0
  10
 84.795747
  20
@@ -21665,9 +15215,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2e8
+294
 100
 AcDbEntity
   8
@@ -21675,557 +15225,63 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+8
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-83.151802
+80.837580
  20
--22.497371
+-26.660149
  30
 0.0
  10
-83.015395
+81.310302
  20
--22.483260
+-26.674260
  30
 0.0
  10
-82.902506
+81.733636
  20
--22.476205
+-26.631927
  30
 0.0
  10
-82.813136
+81.904292
  20
--22.476205
- 30
-0.0
-  0
-SPLINE
-  5
-2e9
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-82.813136
- 20
--22.476205
+-26.542850
  30
 0.0
  10
-82.483876
+82.056427
  20
--22.476205
+-26.381455
  30
 0.0
  10
-82.222821
+82.190042
  20
--22.567927
+-26.147740
  30
 0.0
  10
-82.029969
+82.305136
  20
--22.751371
- 30
-0.0
-  0
-SPLINE
-  5
-2ea
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-82.029969
- 20
--22.751371
+-25.841705
  30
 0.0
  10
-81.837117
+82.432136
  20
--22.930112
- 30
-0.0
- 10
-81.740691
- 20
--23.181760
- 30
-0.0
- 10
-81.740691
- 20
--23.506316
- 30
-0.0
-  0
-SPLINE
-  5
-2eb
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-81.740691
- 20
--23.506316
- 30
-0.0
- 10
-81.740691
- 20
--23.652131
- 30
-0.0
- 10
-81.787728
- 20
--23.884964
- 30
-0.0
- 10
-81.881802
- 20
--24.204816
- 30
-0.0
-  0
-SPLINE
-  5
-2ec
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-81.289136
- 20
--24.472927
- 30
-0.0
- 10
-81.227987
- 20
--24.303594
- 30
-0.0
- 10
-81.197413
- 20
--24.122501
- 30
-0.0
- 10
-81.197413
- 20
--23.929649
- 30
-0.0
-  0
-SPLINE
-  5
-2ed
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-81.197413
- 20
--23.929649
- 30
-0.0
- 10
-81.197413
- 20
--23.661538
- 30
-0.0
- 10
-81.253858
- 20
--23.416945
- 30
-0.0
- 10
-81.366747
- 20
--23.195871
- 30
-0.0
-  0
-SPLINE
-  5
-2ee
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-83.384636
- 20
--22.243371
- 30
-0.0
- 10
-83.455191
- 20
--22.243371
- 30
-0.0
- 10
-83.561024
- 20
--22.243371
- 30
-0.0
- 10
-83.702136
- 20
--22.243371
- 30
-0.0
-  0
-SPLINE
-  5
-2ef
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-83.702136
- 20
--22.243371
- 30
-0.0
- 10
-83.838543
- 20
--22.248075
- 30
-0.0
- 10
-83.942024
- 20
--22.250427
- 30
-0.0
- 10
-84.012580
- 20
--22.250427
- 30
-0.0
-  0
-SPLINE
-  5
-2f0
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-84.012580
- 20
--22.250427
- 30
-0.0
- 10
-84.614654
- 20
--22.250427
- 30
-0.0
- 10
-85.047395
- 20
--22.168112
- 30
-0.0
- 10
-85.310802
- 20
--22.003482
+-25.390149
  30
 0.0
   0
 LWPOLYLINE
   5
-2f1
+295
 100
 AcDbEntity
   8
@@ -22237,7 +15293,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 80.562413
  20
@@ -22265,7 +15321,181 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2f2
+296
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+10
+ 70
+0
+ 10
+83.151802
+ 20
+-22.497371
+ 30
+0.0
+ 10
+82.813136
+ 20
+-22.476205
+ 30
+0.0
+ 10
+82.370399
+ 20
+-22.544996
+ 30
+0.0
+ 10
+82.187396
+ 20
+-22.630986
+ 30
+0.0
+ 10
+82.029969
+ 20
+-22.751371
+ 30
+0.0
+ 10
+81.903410
+ 20
+-22.899097
+ 30
+0.0
+ 10
+81.813011
+ 20
+-23.074163
+ 30
+0.0
+ 10
+81.740691
+ 20
+-23.506316
+ 30
+0.0
+ 10
+81.775969
+ 20
+-23.790302
+ 30
+0.0
+ 10
+81.881802
+ 20
+-24.204816
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+297
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+5
+ 70
+0
+ 10
+81.289136
+ 20
+-24.472927
+ 30
+0.0
+ 10
+81.220344
+ 20
+-24.210108
+ 30
+0.0
+ 10
+81.197413
+ 20
+-23.929649
+ 30
+0.0
+ 10
+81.239747
+ 20
+-23.545121
+ 30
+0.0
+ 10
+81.366747
+ 20
+-23.195871
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+298
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+83.384636
+ 20
+-22.243371
+ 30
+0.0
+ 10
+83.702136
+ 20
+-22.243371
+ 30
+0.0
+ 10
+84.012580
+ 20
+-22.250427
+ 30
+0.0
+ 10
+84.788691
+ 20
+-22.188691
+ 30
+0.0
+ 10
+85.081497
+ 20
+-22.111520
+ 30
+0.0
+ 10
+85.310802
+ 20
+-22.003482
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+299
 100
 AcDbEntity
   8
@@ -22277,7 +15507,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 81.881802
  20
@@ -22303,9 +15533,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-2f3
+29a
 100
 AcDbEntity
   8
@@ -22313,33 +15543,51 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
+AcDbPolyline
+ 90
 4
- 74
+ 70
 0
- 40
+ 10
+85.310802
+ 20
+-22.003482
+ 30
+0.0
+ 10
+85.310802
+ 20
+-22.003482
+ 30
+0.0
+ 10
+85.310802
+ 20
+-22.003482
+ 30
+0.0
+ 10
+85.310802
+ 20
+-22.003482
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+29b
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+7
+ 70
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
 221.689405
  20
@@ -22347,80 +15595,6 @@ AcDbSpline
  30
 0.0
  10
-221.491875
- 20
--18.099136
- 30
-0.0
- 10
-221.301028
- 20
--18.056548
- 30
-0.0
- 10
-221.118269
- 20
--18.003490
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-2f4
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 10
-85.310802
- 20
--22.003482
- 30
-0.0
- 10
-85.310802
- 20
--22.003482
- 30
-0.0
- 10
-85.310802
- 20
--22.003482
- 30
-0.0
- 10
-85.310802
- 20
--22.003482
- 30
-0.0
-  0
-LWPOLYLINE
-  5
-2f5
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbPolyline
- 90
-6
- 70
-1
- 10
 221.118269
  20
 -18.003490
@@ -22459,7 +15633,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2f6
+29c
 100
 AcDbEntity
   8
@@ -22487,7 +15661,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2f7
+29d
 100
 AcDbEntity
   8
@@ -22515,7 +15689,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2f8
+29e
 100
 AcDbEntity
   8
@@ -22543,7 +15717,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2f9
+29f
 100
 AcDbEntity
   8
@@ -22569,443 +15743,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-2fa
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-149.411557
- 20
--40.190955
- 30
-0.0
- 10
-149.218706
- 20
--40.148622
- 30
-0.0
- 10
-149.072891
- 20
--40.127455
- 30
-0.0
- 10
-148.974113
- 20
--40.127455
- 30
-0.0
-  0
-SPLINE
-  5
-2fb
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.974113
- 20
--40.127455
- 30
-0.0
- 10
-148.894150
- 20
--40.127455
- 30
-0.0
- 10
-148.823594
- 20
--40.181547
- 30
-0.0
- 10
-148.762446
- 20
--40.289733
- 30
-0.0
-  0
-SPLINE
-  5
-2fc
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.762446
- 20
--40.289733
- 30
-0.0
- 10
-148.673076
- 20
--40.449659
- 30
-0.0
- 10
-148.494335
- 20
--41.058788
- 30
-0.0
- 10
-148.226224
- 20
--42.117122
- 30
-0.0
-  0
-SPLINE
-  5
-2fd
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.226224
- 20
--42.117122
- 30
-0.0
- 10
-147.958113
- 20
--43.170751
- 30
-0.0
- 10
-147.824057
- 20
--43.782233
- 30
-0.0
- 10
-147.824057
- 20
--43.951566
- 30
-0.0
-  0
-SPLINE
-  5
-2fe
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-147.824057
- 20
--43.951566
- 30
-0.0
- 10
-147.824057
- 20
--44.139714
- 30
-0.0
- 10
-147.941650
- 20
--44.233788
- 30
-0.0
- 10
-148.176835
- 20
--44.233788
- 30
-0.0
-  0
-SPLINE
-  5
-2ff
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.176835
- 20
--44.233788
- 30
-0.0
- 10
-148.247391
- 20
--44.233788
- 30
-0.0
- 10
-148.339113
- 20
--44.229085
- 30
-0.0
- 10
-148.452002
- 20
--44.219677
- 30
-0.0
-  0
-SPLINE
-  5
-300
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.452002
- 20
--44.219677
- 30
-0.0
- 10
-148.602520
- 20
--44.205566
- 30
-0.0
- 10
-148.696594
- 20
--44.198510
- 30
-0.0
- 10
-148.734224
- 20
--44.198510
- 30
-0.0
-  0
 LWPOLYLINE
   5
-301
+2a0
 100
 AcDbEntity
   8
@@ -23043,9 +15783,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-302
+2a1
 100
 AcDbEntity
   8
@@ -23053,309 +15793,99 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+14
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-148.586057
+149.411557
  20
--44.374899
+-40.190955
  30
 0.0
  10
-148.524909
+148.974113
  20
--44.379603
+-40.127455
  30
 0.0
  10
-148.362631
+148.861224
  20
--44.398418
+-40.168024
  30
 0.0
  10
-148.099224
+148.762446
  20
--44.431344
- 30
-0.0
-  0
-SPLINE
-  5
-303
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.099224
- 20
--44.431344
+-40.289733
  30
 0.0
  10
-147.944002
+148.561363
  20
--44.440751
+-40.866524
  30
 0.0
  10
-147.711168
+148.226224
  20
--44.466622
+-42.117122
  30
 0.0
  10
-147.400724
+147.924599
  20
--44.508955
- 30
-0.0
-  0
-SPLINE
-  5
-304
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-147.400724
- 20
--44.508955
+-43.365955
  30
 0.0
  10
-147.320761
+147.824057
  20
--44.523066
+-43.951566
  30
 0.0
  10
-147.273724
+147.846106
  20
--44.530122
+-44.075038
  30
 0.0
  10
-147.259613
+147.912252
  20
--44.530122
- 30
-0.0
-  0
-SPLINE
-  5
-305
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-147.259613
- 20
--44.530122
+-44.163232
  30
 0.0
  10
-147.165539
+148.022495
  20
--44.530122
+-44.216149
  30
 0.0
  10
-147.118502
+148.176835
  20
--44.483085
+-44.233788
  30
 0.0
  10
-147.118502
+148.452002
  20
--44.389010
- 30
-0.0
-  0
-SPLINE
-  5
-306
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-147.118502
- 20
--44.389010
+-44.219677
  30
 0.0
  10
-147.118502
+148.734224
  20
--44.323159
- 30
-0.0
- 10
-147.132613
- 20
--44.238492
- 30
-0.0
- 10
-147.160835
- 20
--44.135010
+-44.198510
  30
 0.0
   0
 LWPOLYLINE
   5
-307
+2a2
 100
 AcDbEntity
   8
@@ -23367,7 +15897,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 149.700835
  20
@@ -23393,9 +15923,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-308
+2a3
 100
 AcDbEntity
   8
@@ -23403,185 +15933,57 @@ Layer_1
  62
 7
 100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-147.548891
- 20
--42.738010
- 30
-0.0
- 10
-147.680594
- 20
--42.248825
- 30
-0.0
- 10
-147.814650
- 20
--41.722010
- 30
-0.0
- 10
-147.951057
- 20
--41.157566
- 30
-0.0
-  0
-SPLINE
-  5
-309
-100
-AcDbEntity
-  8
-Layer_1
- 62
+AcDbPolyline
+ 90
 7
-100
-AcDbSpline
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-147.951057
+148.586057
  20
--41.157566
+-44.374899
  30
 0.0
  10
-147.659428
+148.099224
  20
--41.571492
+-44.431344
  30
 0.0
  10
-147.229039
+147.400724
  20
--42.199436
+-44.508955
  30
 0.0
  10
-146.659891
+147.259613
  20
--43.041399
- 30
-0.0
-  0
-SPLINE
-  5
-30a
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-146.659891
- 20
--43.041399
+-44.530122
  30
 0.0
  10
-146.387076
+147.153780
  20
--43.464733
+-44.494844
  30
 0.0
  10
-146.189520
+147.118502
  20
--43.810455
+-44.389010
  30
 0.0
  10
-146.067224
+147.160835
  20
--44.078566
+-44.135010
  30
 0.0
   0
 LWPOLYLINE
   5
-30b
+2a4
 100
 AcDbEntity
   8
@@ -23593,7 +15995,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 148.734224
  20
@@ -23619,319 +16021,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-30c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-145.721502
- 20
--44.346677
- 30
-0.0
- 10
-145.679168
- 20
--43.575270
- 30
-0.0
- 10
-145.589798
- 20
--42.519288
- 30
-0.0
- 10
-145.453391
- 20
--41.178733
- 30
-0.0
-  0
-SPLINE
-  5
-30d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-145.453391
- 20
--41.178733
- 30
-0.0
- 10
-145.354613
- 20
--41.592659
- 30
-0.0
- 10
-145.232317
- 20
--42.060677
- 30
-0.0
- 10
-145.086502
- 20
--42.582788
- 30
-0.0
-  0
-SPLINE
-  5
-30e
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-145.086502
- 20
--42.582788
- 30
-0.0
- 10
-144.959502
- 20
--43.048455
- 30
-0.0
- 10
-144.841909
- 20
--43.387122
- 30
-0.0
- 10
-144.733724
- 20
--43.598788
- 30
-0.0
-  0
-SPLINE
-  5
-30f
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.733724
- 20
--43.598788
- 30
-0.0
- 10
-144.545576
- 20
--43.970381
- 30
-0.0
- 10
-144.303335
- 20
--44.222029
- 30
-0.0
- 10
-144.007002
- 20
--44.353733
- 30
-0.0
-  0
-SPLINE
-  5
-310
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.007002
- 20
--44.353733
- 30
-0.0
- 10
-143.814150
- 20
--44.438399
- 30
-0.0
- 10
-143.475483
- 20
--44.480733
- 30
-0.0
- 10
-142.991002
- 20
--44.480733
- 30
-0.0
-  0
 LWPOLYLINE
   5
-311
+2a5
 100
 AcDbEntity
   8
@@ -23943,7 +16035,47 @@ AcDbPolyline
  90
 4
  70
-1
+0
+ 10
+147.548891
+ 20
+-42.738010
+ 30
+0.0
+ 10
+147.951057
+ 20
+-41.157566
+ 30
+0.0
+ 10
+146.659891
+ 20
+-43.041399
+ 30
+0.0
+ 10
+146.067224
+ 20
+-44.078566
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2a6
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
  10
 147.160835
  20
@@ -23969,9 +16101,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-312
+2a7
 100
 AcDbEntity
   8
@@ -23979,433 +16111,75 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+10
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-143.315557
+145.721502
  20
--43.993899
+-44.346677
  30
 0.0
  10
-143.691854
+145.453391
  20
--44.017418
+-41.178733
  30
 0.0
  10
-143.865891
+145.086502
  20
--44.029177
+-42.582788
  30
 0.0
  10
-143.837668
+144.903057
  20
--44.029177
- 30
-0.0
-  0
-SPLINE
-  5
-313
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-143.837668
- 20
--44.029177
+-43.186038
  30
 0.0
  10
-144.101076
+144.733724
  20
--44.029177
+-43.598788
  30
 0.0
  10
-144.305687
+144.410932
  20
--43.911585
+-44.066219
  30
 0.0
  10
-144.451502
+144.219110
  20
--43.676399
- 30
-0.0
-  0
-SPLINE
-  5
-314
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.451502
- 20
--43.676399
+-44.232465
  30
 0.0
  10
-144.498539
+144.007002
  20
--43.596436
+-44.353733
  30
 0.0
  10
-144.611428
+143.608363
  20
--43.255418
+-44.448983
  30
 0.0
  10
-144.790168
+142.991002
  20
--42.653344
- 30
-0.0
-  0
-SPLINE
-  5
-315
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.790168
- 20
--42.653344
- 30
-0.0
- 10
-144.935983
- 20
--42.154751
- 30
-0.0
- 10
-145.095909
- 20
--41.559733
- 30
-0.0
- 10
-145.269946
- 20
--40.868288
- 30
-0.0
-  0
-SPLINE
-  5
-316
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-145.269946
- 20
--40.868288
- 30
-0.0
- 10
-145.091206
- 20
--40.840066
- 30
-0.0
- 10
-144.921872
- 20
--40.825955
- 30
-0.0
- 10
-144.761946
- 20
--40.825955
- 30
-0.0
-  0
-SPLINE
-  5
-317
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.761946
- 20
--40.825955
- 30
-0.0
- 10
-144.122243
- 20
--40.825955
- 30
-0.0
- 10
-143.802391
- 20
--41.063492
- 30
-0.0
- 10
-143.802391
- 20
--41.538566
- 30
-0.0
-  0
-SPLINE
-  5
-318
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-143.802391
- 20
--41.538566
- 30
-0.0
- 10
-143.802391
- 20
--41.679677
- 30
-0.0
- 10
-143.877650
- 20
--41.928973
- 30
-0.0
- 10
-144.028168
- 20
--42.286455
+-44.480733
  30
 0.0
   0
 LWPOLYLINE
   5
-319
+2a8
 100
 AcDbEntity
   8
@@ -24417,7 +16191,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 146.067224
  20
@@ -24443,9 +16217,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-31a
+2a9
 100
 AcDbEntity
   8
@@ -24453,309 +16227,111 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+16
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-143.491946
+143.315557
  20
--42.660399
+-43.993899
  30
 0.0
  10
-143.383761
+143.728308
  20
--42.392288
+-44.020358
  30
 0.0
  10
-143.329668
+143.837668
  20
--42.175918
+-44.029177
  30
 0.0
  10
-143.329668
+144.024200
  20
--42.011288
- 30
-0.0
-  0
-SPLINE
-  5
-31b
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-143.329668
- 20
--42.011288
+-44.007129
  30
 0.0
  10
-143.329668
+144.188682
  20
--41.696140
+-43.940983
  30
 0.0
  10
-143.463724
+144.331116
  20
--41.369233
+-43.830740
  30
 0.0
  10
-143.731835
+144.451502
  20
--41.030566
- 30
-0.0
-  0
-SPLINE
-  5
-31c
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-143.731835
- 20
--41.030566
+-43.676399
  30
 0.0
  10
-144.004650
+144.790168
  20
--40.687196
+-42.653344
  30
 0.0
  10
-144.296280
+145.269946
  20
--40.475529
+-40.868288
  30
 0.0
  10
-144.606724
+144.761946
  20
--40.395566
- 30
-0.0
-  0
-SPLINE
-  5
-31d
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-144.606724
- 20
--40.395566
+-40.825955
  30
 0.0
  10
-144.724317
+144.342141
  20
--40.367344
+-40.870493
  30
 0.0
  10
-144.863076
+144.042280
  20
--40.353233
+-41.004108
  30
 0.0
  10
-145.023002
+143.862363
  20
--40.353233
- 30
-0.0
-  0
-SPLINE
-  5
-31e
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-145.023002
- 20
--40.353233
+-41.226799
  30
 0.0
  10
-145.197039
+143.802391
  20
--40.353233
+-41.538566
  30
 0.0
  10
-145.387539
+143.858835
  20
--40.367344
+-41.831371
  30
 0.0
  10
-145.594502
+144.028168
  20
--40.395566
+-42.286455
  30
 0.0
   0
 LWPOLYLINE
   5
-31f
+2aa
 100
 AcDbEntity
   8
@@ -24767,7 +16343,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 142.991002
  20
@@ -24793,9 +16369,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
+LWPOLYLINE
   5
-320
+2ab
 100
 AcDbEntity
   8
@@ -24803,185 +16379,81 @@ Layer_1
  62
 7
 100
-AcDbSpline
+AcDbPolyline
+ 90
+11
  70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
 0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
  10
-145.813224
+143.491946
  20
--40.219177
+-42.660399
  30
 0.0
  10
-145.860261
+143.370238
  20
--40.463770
+-42.297038
  30
 0.0
  10
-145.923761
+143.329668
  20
--40.912973
+-42.011288
  30
 0.0
  10
-146.003724
+143.354803
  20
--41.566788
- 30
-0.0
-  0
-SPLINE
-  5
-321
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-146.003724
- 20
--41.566788
+-41.772722
  30
 0.0
  10
-146.017835
+143.430210
  20
--41.670270
+-41.529747
  30
 0.0
  10
-146.076631
+143.731835
  20
--42.262936
+-41.030566
  30
 0.0
  10
-146.180113
+144.155169
  20
--43.344788
- 30
-0.0
-  0
-SPLINE
-  5
-322
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-146.180113
- 20
--43.344788
+-40.614288
  30
 0.0
  10
-146.608150
+144.377419
  20
--42.714492
+-40.480233
  30
 0.0
  10
-147.066761
+144.606724
  20
--42.058325
+-40.395566
  30
 0.0
  10
-147.555946
+145.023002
  20
--41.376288
+-40.353233
+ 30
+0.0
+ 10
+145.594502
+ 20
+-40.395566
  30
 0.0
   0
 LWPOLYLINE
   5
-323
+2ac
 100
 AcDbEntity
   8
@@ -24993,7 +16465,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 144.028168
  20
@@ -25019,257 +16491,9 @@ AcDbPolyline
  30
 0.0
   0
-SPLINE
-  5
-324
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.106280
- 20
--40.607233
- 30
-0.0
- 10
-148.233280
- 20
--40.433196
- 30
-0.0
- 10
-148.336761
- 20
--40.306196
- 30
-0.0
- 10
-148.416724
- 20
--40.226233
- 30
-0.0
-  0
-SPLINE
-  5
-325
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.416724
- 20
--40.226233
- 30
-0.0
- 10
-148.463761
- 20
--40.179196
- 30
-0.0
- 10
-148.579002
- 20
--40.101585
- 30
-0.0
- 10
-148.762446
- 20
--39.993399
- 30
-0.0
-  0
-SPLINE
-  5
-326
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-148.762446
- 20
--39.993399
- 30
-0.0
- 10
-149.030557
- 20
--39.833473
- 30
-0.0
- 10
-149.249280
- 20
--39.753510
- 30
-0.0
- 10
-149.418613
- 20
--39.753510
- 30
-0.0
-  0
-SPLINE
-  5
-327
-100
-AcDbEntity
-  8
-Layer_1
- 62
-7
-100
-AcDbSpline
- 70
-8
- 71
-3
- 72
-8
- 73
-4
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
-149.418613
- 20
--39.753510
- 30
-0.0
- 10
-149.507983
- 20
--39.753510
- 30
-0.0
- 10
-149.602057
- 20
--39.767622
- 30
-0.0
- 10
-149.700835
- 20
--39.795844
- 30
-0.0
-  0
 LWPOLYLINE
   5
-328
+2ad
 100
 AcDbEntity
   8
@@ -25281,7 +16505,47 @@ AcDbPolyline
  90
 4
  70
-1
+0
+ 10
+145.813224
+ 20
+-40.219177
+ 30
+0.0
+ 10
+146.003724
+ 20
+-41.566788
+ 30
+0.0
+ 10
+146.180113
+ 20
+-43.344788
+ 30
+0.0
+ 10
+147.555946
+ 20
+-41.376288
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2ae
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
  10
 145.594502
  20
@@ -25309,7 +16573,59 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-329
+2af
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+148.106280
+ 20
+-40.607233
+ 30
+0.0
+ 10
+148.416724
+ 20
+-40.226233
+ 30
+0.0
+ 10
+148.762446
+ 20
+-39.993399
+ 30
+0.0
+ 10
+149.127571
+ 20
+-39.813482
+ 30
+0.0
+ 10
+149.418613
+ 20
+-39.753510
+ 30
+0.0
+ 10
+149.700835
+ 20
+-39.795844
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2b0
 100
 AcDbEntity
   8
@@ -25321,7 +16637,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 147.555946
  20
@@ -25349,7 +16665,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-32a
+2b1
 100
 AcDbEntity
   8
@@ -25361,7 +16677,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 149.700835
  20
@@ -25389,7 +16705,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-32b
+2b2
 100
 AcDbEntity
   8
@@ -25401,7 +16717,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 91.904524
  20
@@ -25429,7 +16745,7 @@ AcDbPolyline
   0
 SPLINE
   5
-32c
+2b3
 100
 AcDbEntity
   8
@@ -25491,7 +16807,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-32d
+2b4
 100
 AcDbEntity
   8
@@ -25503,7 +16819,7 @@ AcDbPolyline
  90
 4
  70
-1
+0
  10
 92.572092
  20
@@ -25531,7 +16847,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-32e
+2b5
 100
 AcDbEntity
   8
@@ -25583,7 +16899,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-32f
+2b6
 100
 AcDbEntity
   8
@@ -25611,7 +16927,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-330
+2b7
 100
 AcDbEntity
   8
@@ -25639,7 +16955,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-331
+2b8
 100
 AcDbEntity
   8
@@ -25667,7 +16983,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-332
+2b9
 100
 AcDbEntity
   8
@@ -25695,7 +17011,7 @@ AcDbPolyline
   0
 SPLINE
   5
-333
+2ba
 100
 AcDbEntity
   8
@@ -25757,7 +17073,7 @@ AcDbSpline
   0
 LWPOLYLINE
   5
-334
+2bb
 100
 AcDbEntity
   8
@@ -25797,7 +17113,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-335
+2bc
 100
 AcDbEntity
   8
@@ -25849,7 +17165,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-336
+2bd
 100
 AcDbEntity
   8
@@ -25877,7 +17193,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-337
+2be
 100
 AcDbEntity
   8
@@ -25905,7 +17221,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-338
+2bf
 100
 AcDbEntity
   8
@@ -25933,7 +17249,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-339
+2c0
 100
 AcDbEntity
   8
@@ -25961,7 +17277,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-33a
+2c1
 100
 AcDbEntity
   8
@@ -26001,7 +17317,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-33b
+2c2
 100
 AcDbEntity
   8
@@ -26035,7 +17351,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-33c
+2c3
 100
 AcDbEntity
   8
@@ -26063,7 +17379,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-33d
+2c4
 100
 AcDbEntity
   8
@@ -26091,7 +17407,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-33e
+2c5
 100
 AcDbEntity
   8
@@ -26119,7 +17435,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-33f
+2c6
 100
 AcDbEntity
   8
@@ -26153,7 +17469,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-340
+2c7
 100
 AcDbEntity
   8
@@ -26181,7 +17497,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-341
+2c8
 100
 AcDbEntity
   8
@@ -26195,15 +17511,3257 @@ AcDbPolyline
  70
 0
  10
-8.466667
+8.673629
  20
--5.644443
+-5.437490
  30
 0.0
  10
-8.466667
+8.673629
  20
--9.877776
+-9.670823
+ 30
+0.0
+  0
+SPLINE
+  5
+2c9
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.402155
+ 20
+11.344601
+ 30
+0.0
+ 10
+92.483000
+ 20
+11.372165
+ 30
+0.0
+ 10
+92.563846
+ 20
+11.392372
+ 30
+0.0
+ 10
+92.644691
+ 20
+11.405222
+ 30
+0.0
+  0
+SPLINE
+  5
+2ca
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.644691
+ 20
+11.405222
+ 30
+0.0
+ 10
+92.725534
+ 20
+11.419898
+ 30
+0.0
+ 10
+92.806379
+ 20
+11.427236
+ 30
+0.0
+ 10
+92.887224
+ 20
+11.427236
+ 30
+0.0
+  0
+SPLINE
+  5
+2cb
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.887224
+ 20
+11.427236
+ 30
+0.0
+ 10
+93.346571
+ 20
+11.427236
+ 30
+0.0
+ 10
+93.710373
+ 20
+11.301374
+ 30
+0.0
+ 10
+93.978631
+ 20
+11.049650
+ 30
+0.0
+  0
+SPLINE
+  5
+2cc
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+93.978631
+ 20
+11.049650
+ 30
+0.0
+ 10
+94.246889
+ 20
+10.797927
+ 30
+0.0
+ 10
+94.381018
+ 20
+10.457087
+ 30
+0.0
+ 10
+94.381018
+ 20
+10.027131
+ 30
+0.0
+  0
+SPLINE
+  5
+2cd
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+94.381018
+ 20
+10.027131
+ 30
+0.0
+ 10
+94.381018
+ 20
+9.584324
+ 30
+0.0
+ 10
+94.243215
+ 20
+9.239816
+ 30
+0.0
+ 10
+93.967608
+ 20
+8.993605
+ 30
+0.0
+  0
+SPLINE
+  5
+2ce
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+93.967608
+ 20
+8.993605
+ 30
+0.0
+ 10
+93.691999
+ 20
+8.749238
+ 30
+0.0
+ 10
+93.303392
+ 20
+8.627055
+ 30
+0.0
+ 10
+92.801787
+ 20
+8.627055
+ 30
+0.0
+  0
+SPLINE
+  5
+2cf
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.801787
+ 20
+8.627055
+ 30
+0.0
+ 10
+92.629073
+ 20
+8.627055
+ 30
+0.0
+ 10
+92.452684
+ 20
+8.641749
+ 30
+0.0
+ 10
+92.272620
+ 20
+8.671138
+ 30
+0.0
+  0
+SPLINE
+  5
+2d0
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.272620
+ 20
+8.671138
+ 30
+0.0
+ 10
+92.094393
+ 20
+8.700546
+ 30
+0.0
+ 10
+91.909736
+ 20
+8.744647
+ 30
+0.0
+ 10
+91.718649
+ 20
+8.803444
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2d1
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+5
+ 70
+1
+ 10
+91.892281
+ 20
+12.821865
+ 30
+0.0
+ 10
+94.077849
+ 20
+12.821865
+ 30
+0.0
+ 10
+94.077849
+ 20
+12.353320
+ 30
+0.0
+ 10
+92.402155
+ 20
+12.353320
+ 30
+0.0
+ 10
+92.402155
+ 20
+11.344601
+ 30
+0.0
+  0
+SPLINE
+  5
+2d2
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+91.718649
+ 20
+9.362921
+ 30
+0.0
+ 10
+91.884013
+ 20
+9.272892
+ 30
+0.0
+ 10
+92.054889
+ 20
+9.205827
+ 30
+0.0
+ 10
+92.231278
+ 20
+9.161725
+ 30
+0.0
+  0
+SPLINE
+  5
+2d3
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.231278
+ 20
+9.161725
+ 30
+0.0
+ 10
+92.407667
+ 20
+9.117642
+ 30
+0.0
+ 10
+92.594161
+ 20
+9.095600
+ 30
+0.0
+ 10
+92.790761
+ 20
+9.095600
+ 30
+0.0
+  0
+SPLINE
+  5
+2d4
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.790761
+ 20
+9.095600
+ 30
+0.0
+ 10
+93.108629
+ 20
+9.095600
+ 30
+0.0
+ 10
+93.360351
+ 20
+9.179194
+ 30
+0.0
+ 10
+93.545925
+ 20
+9.346383
+ 30
+0.0
+  0
+SPLINE
+  5
+2d5
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+93.545925
+ 20
+9.346383
+ 30
+0.0
+ 10
+93.731501
+ 20
+9.513590
+ 30
+0.0
+ 10
+93.824290
+ 20
+9.740506
+ 30
+0.0
+ 10
+93.824290
+ 20
+10.027131
+ 30
+0.0
+  0
+SPLINE
+  5
+2d6
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+93.824290
+ 20
+10.027131
+ 30
+0.0
+ 10
+93.824290
+ 20
+10.313775
+ 30
+0.0
+ 10
+93.731501
+ 20
+10.540691
+ 30
+0.0
+ 10
+93.545925
+ 20
+10.707879
+ 30
+0.0
+  0
+SPLINE
+  5
+2d7
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+93.545925
+ 20
+10.707879
+ 30
+0.0
+ 10
+93.360351
+ 20
+10.875087
+ 30
+0.0
+ 10
+93.108629
+ 20
+10.958690
+ 30
+0.0
+ 10
+92.790761
+ 20
+10.958690
+ 30
+0.0
+  0
+SPLINE
+  5
+2d8
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.790761
+ 20
+10.958690
+ 30
+0.0
+ 10
+92.641934
+ 20
+10.958690
+ 30
+0.0
+ 10
+92.493106
+ 20
+10.942152
+ 30
+0.0
+ 10
+92.344277
+ 20
+10.909076
+ 30
+0.0
+  0
+SPLINE
+  5
+2d9
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+92.344277
+ 20
+10.909076
+ 30
+0.0
+ 10
+92.197286
+ 20
+10.876018
+ 30
+0.0
+ 10
+92.046621
+ 20
+10.824578
+ 30
+0.0
+ 10
+91.892281
+ 20
+10.754756
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2da
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+1
+ 10
+91.718649
+ 20
+8.803444
+ 30
+0.0
+ 10
+91.718649
+ 20
+9.362921
+ 30
+0.0
+  0
+SPLINE
+  5
+2db
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.634774
+ 20
+10.825453
+ 30
+0.0
+ 10
+182.634774
+ 20
+10.739846
+ 30
+0.0
+ 10
+182.608434
+ 20
+10.665762
+ 30
+0.0
+ 10
+182.555752
+ 20
+10.603203
+ 30
+0.0
+  0
+SPLINE
+  5
+2dc
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.555752
+ 20
+10.603203
+ 30
+0.0
+ 10
+182.506363
+ 20
+10.540644
+ 30
+0.0
+ 10
+182.440511
+ 20
+10.509364
+ 30
+0.0
+ 10
+182.358197
+ 20
+10.509364
+ 30
+0.0
+  0
+SPLINE
+  5
+2dd
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.358197
+ 20
+10.509364
+ 30
+0.0
+ 10
+182.272589
+ 20
+10.509364
+ 30
+0.0
+ 10
+182.203445
+ 20
+10.540644
+ 30
+0.0
+ 10
+182.150763
+ 20
+10.603203
+ 30
+0.0
+  0
+SPLINE
+  5
+2de
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.150763
+ 20
+10.603203
+ 30
+0.0
+ 10
+182.098082
+ 20
+10.665762
+ 30
+0.0
+ 10
+182.071741
+ 20
+10.739846
+ 30
+0.0
+ 10
+182.071741
+ 20
+10.825453
+ 30
+0.0
+  0
+SPLINE
+  5
+2df
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.071741
+ 20
+10.825453
+ 30
+0.0
+ 10
+182.071741
+ 20
+10.911061
+ 30
+0.0
+ 10
+182.098082
+ 20
+10.986790
+ 30
+0.0
+ 10
+182.150763
+ 20
+11.052642
+ 30
+0.0
+  0
+SPLINE
+  5
+2e0
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.150763
+ 20
+11.052642
+ 30
+0.0
+ 10
+182.203445
+ 20
+11.118494
+ 30
+0.0
+ 10
+182.272589
+ 20
+11.151420
+ 30
+0.0
+ 10
+182.358197
+ 20
+11.151420
+ 30
+0.0
+  0
+SPLINE
+  5
+2e1
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.358197
+ 20
+11.151420
+ 30
+0.0
+ 10
+182.440511
+ 20
+11.151420
+ 30
+0.0
+ 10
+182.506363
+ 20
+11.118494
+ 30
+0.0
+ 10
+182.555752
+ 20
+11.052642
+ 30
+0.0
+  0
+SPLINE
+  5
+2e2
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.555752
+ 20
+11.052642
+ 30
+0.0
+ 10
+182.608434
+ 20
+10.986790
+ 30
+0.0
+ 10
+182.634774
+ 20
+10.911061
+ 30
+0.0
+ 10
+182.634774
+ 20
+10.825453
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2e3
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+91.892281
+ 20
+10.754756
+ 30
+0.0
+ 10
+91.892281
+ 20
+12.821808
+ 30
+0.0
+ 10
+91.892281
+ 20
+12.821865
+ 30
+0.0
+  0
+SPLINE
+  5
+2e4
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.340785
+ 20
+10.771125
+ 30
+0.0
+ 10
+181.340785
+ 20
+11.284770
+ 30
+0.0
+ 10
+181.428039
+ 20
+11.678235
+ 30
+0.0
+ 10
+181.602547
+ 20
+11.951520
+ 30
+0.0
+  0
+SPLINE
+  5
+2e5
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.602547
+ 20
+11.951520
+ 30
+0.0
+ 10
+181.780347
+ 20
+12.228098
+ 30
+0.0
+ 10
+182.028937
+ 20
+12.366386
+ 30
+0.0
+ 10
+182.348319
+ 20
+12.366386
+ 30
+0.0
+  0
+SPLINE
+  5
+2e6
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.348319
+ 20
+12.366386
+ 30
+0.0
+ 10
+182.670993
+ 20
+12.366386
+ 30
+0.0
+ 10
+182.919584
+ 20
+12.228098
+ 30
+0.0
+ 10
+183.094091
+ 20
+11.951520
+ 30
+0.0
+  0
+SPLINE
+  5
+2e7
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+183.094091
+ 20
+11.951520
+ 30
+0.0
+ 10
+183.268598
+ 20
+11.678235
+ 30
+0.0
+ 10
+183.355852
+ 20
+11.284770
+ 30
+0.0
+ 10
+183.355852
+ 20
+10.771125
+ 30
+0.0
+  0
+SPLINE
+  5
+2e8
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+183.355852
+ 20
+10.771125
+ 30
+0.0
+ 10
+183.355852
+ 20
+10.257481
+ 30
+0.0
+ 10
+183.268598
+ 20
+9.862370
+ 30
+0.0
+ 10
+183.094091
+ 20
+9.585792
+ 30
+0.0
+  0
+SPLINE
+  5
+2e9
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+183.094091
+ 20
+9.585792
+ 30
+0.0
+ 10
+182.919584
+ 20
+9.312507
+ 30
+0.0
+ 10
+182.670993
+ 20
+9.175864
+ 30
+0.0
+ 10
+182.348319
+ 20
+9.175864
+ 30
+0.0
+  0
+SPLINE
+  5
+2ea
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.348319
+ 20
+9.175864
+ 30
+0.0
+ 10
+182.028937
+ 20
+9.175864
+ 30
+0.0
+ 10
+181.780347
+ 20
+9.312507
+ 30
+0.0
+ 10
+181.602547
+ 20
+9.585792
+ 30
+0.0
+  0
+SPLINE
+  5
+2eb
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.602547
+ 20
+9.585792
+ 30
+0.0
+ 10
+181.428039
+ 20
+9.862370
+ 30
+0.0
+ 10
+181.340785
+ 20
+10.257481
+ 30
+0.0
+ 10
+181.340785
+ 20
+10.771125
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2ec
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+1
+ 10
+182.634774
+ 20
+10.825453
+ 30
+0.0
+ 10
+182.634774
+ 20
+10.825453
+ 30
+0.0
+  0
+SPLINE
+  5
+2ed
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.940985
+ 20
+10.771125
+ 30
+0.0
+ 10
+182.940985
+ 20
+10.939048
+ 30
+0.0
+ 10
+182.931108
+ 20
+11.097092
+ 30
+0.0
+ 10
+182.911352
+ 20
+11.245259
+ 30
+0.0
+  0
+SPLINE
+  5
+2ee
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.911352
+ 20
+11.245259
+ 30
+0.0
+ 10
+182.891597
+ 20
+11.396718
+ 30
+0.0
+ 10
+182.858671
+ 20
+11.528422
+ 30
+0.0
+ 10
+182.812574
+ 20
+11.640370
+ 30
+0.0
+  0
+SPLINE
+  5
+2ef
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.812574
+ 20
+11.640370
+ 30
+0.0
+ 10
+182.766478
+ 20
+11.752318
+ 30
+0.0
+ 10
+182.705565
+ 20
+11.841218
+ 30
+0.0
+ 10
+182.629835
+ 20
+11.907070
+ 30
+0.0
+  0
+SPLINE
+  5
+2f0
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.629835
+ 20
+11.907070
+ 30
+0.0
+ 10
+182.554106
+ 20
+11.972922
+ 30
+0.0
+ 10
+182.460267
+ 20
+12.005848
+ 30
+0.0
+ 10
+182.348319
+ 20
+12.005848
+ 30
+0.0
+  0
+SPLINE
+  5
+2f1
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.348319
+ 20
+12.005848
+ 30
+0.0
+ 10
+182.236371
+ 20
+12.005848
+ 30
+0.0
+ 10
+182.142532
+ 20
+11.972922
+ 30
+0.0
+ 10
+182.066802
+ 20
+11.907070
+ 30
+0.0
+  0
+SPLINE
+  5
+2f2
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.066802
+ 20
+11.907070
+ 30
+0.0
+ 10
+181.991072
+ 20
+11.841218
+ 30
+0.0
+ 10
+181.930159
+ 20
+11.752318
+ 30
+0.0
+ 10
+181.884063
+ 20
+11.640370
+ 30
+0.0
+  0
+SPLINE
+  5
+2f3
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.884063
+ 20
+11.640370
+ 30
+0.0
+ 10
+181.837967
+ 20
+11.528422
+ 30
+0.0
+ 10
+181.805041
+ 20
+11.396718
+ 30
+0.0
+ 10
+181.785285
+ 20
+11.245259
+ 30
+0.0
+  0
+SPLINE
+  5
+2f4
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.785285
+ 20
+11.245259
+ 30
+0.0
+ 10
+181.765530
+ 20
+11.097092
+ 30
+0.0
+ 10
+181.755652
+ 20
+10.939048
+ 30
+0.0
+ 10
+181.755652
+ 20
+10.771125
+ 30
+0.0
+  0
+SPLINE
+  5
+2f5
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.755652
+ 20
+10.771125
+ 30
+0.0
+ 10
+181.755652
+ 20
+10.603203
+ 30
+0.0
+ 10
+181.765530
+ 20
+10.443512
+ 30
+0.0
+ 10
+181.785285
+ 20
+10.292053
+ 30
+0.0
+  0
+SPLINE
+  5
+2f6
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.785285
+ 20
+10.292053
+ 30
+0.0
+ 10
+181.805041
+ 20
+10.143886
+ 30
+0.0
+ 10
+181.837967
+ 20
+10.013829
+ 30
+0.0
+ 10
+181.884063
+ 20
+9.901881
+ 30
+0.0
+  0
+SPLINE
+  5
+2f7
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+181.884063
+ 20
+9.901881
+ 30
+0.0
+ 10
+181.930159
+ 20
+9.789933
+ 30
+0.0
+ 10
+181.991072
+ 20
+9.701033
+ 30
+0.0
+ 10
+182.066802
+ 20
+9.635181
+ 30
+0.0
+  0
+SPLINE
+  5
+2f8
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.066802
+ 20
+9.635181
+ 30
+0.0
+ 10
+182.142532
+ 20
+9.569329
+ 30
+0.0
+ 10
+182.236371
+ 20
+9.536403
+ 30
+0.0
+ 10
+182.348319
+ 20
+9.536403
+ 30
+0.0
+  0
+SPLINE
+  5
+2f9
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.348319
+ 20
+9.536403
+ 30
+0.0
+ 10
+182.460267
+ 20
+9.536403
+ 30
+0.0
+ 10
+182.554106
+ 20
+9.569329
+ 30
+0.0
+ 10
+182.629835
+ 20
+9.635181
+ 30
+0.0
+  0
+SPLINE
+  5
+2fa
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.629835
+ 20
+9.635181
+ 30
+0.0
+ 10
+182.705565
+ 20
+9.701033
+ 30
+0.0
+ 10
+182.766478
+ 20
+9.789933
+ 30
+0.0
+ 10
+182.812574
+ 20
+9.901881
+ 30
+0.0
+  0
+SPLINE
+  5
+2fb
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.812574
+ 20
+9.901881
+ 30
+0.0
+ 10
+182.858671
+ 20
+10.013829
+ 30
+0.0
+ 10
+182.891597
+ 20
+10.143886
+ 30
+0.0
+ 10
+182.911352
+ 20
+10.292053
+ 30
+0.0
+  0
+SPLINE
+  5
+2fc
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbSpline
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+182.911352
+ 20
+10.292053
+ 30
+0.0
+ 10
+182.931108
+ 20
+10.443512
+ 30
+0.0
+ 10
+182.940985
+ 20
+10.603203
+ 30
+0.0
+ 10
+182.940985
+ 20
+10.771125
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2fd
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+1
+ 10
+181.340785
+ 20
+10.771125
+ 30
+0.0
+ 10
+181.340785
+ 20
+10.771125
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2fe
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+1
+ 10
+182.940985
+ 20
+10.771125
+ 30
+0.0
+ 10
+182.940985
+ 20
+10.771125
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+2ff
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+6
+100
+AcDbPolyline
+ 90
+5
+ 70
+0
+ 10
+-10.317339
+ 20
+31.182944
+ 30
+0.0
+ 10
+252.050093
+ 20
+31.182944
+ 30
+0.0
+ 10
+252.050093
+ 20
+-69.602800
+ 30
+0.0
+ 10
+-10.317339
+ 20
+-69.602800
+ 30
+0.0
+ 10
+-10.317339
+ 20
+31.182944
+ 30
+0.0
+  0
+LWPOLYLINE
+  5
+300
+100
+AcDbEntity
+  8
+Layer_1
+ 62
+7
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+4.707415
+ 20
+9.337719
+ 30
+0.0
+ 10
+1.125502
+ 20
+11.940174
  30
 0.0
   0
