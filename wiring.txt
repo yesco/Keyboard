@@ -1,0 +1,52 @@
+Seems one can wire many things with 2 diods, in cascade:
+any 2 high, 3 high, 4 highs
+
+          2 3 4 5 6 7 
+        ------------- 
+       0:   0 @ P ` p                   16 ---
+       1: ! 1 A Q a q            1      16 --1
+       2: " 2 B R b r           2-      16 -2-
+       3: # 3 C S c s           21      16 (21)
+       4: $ 4 D T d t          4--      16 4--
+       5: % 5 E U e u          4-1      16 (41)
+       6: & 6 F V f v          42-      16 (42)
+       7: ' 7 G W g w         (6)1      16 (7)
+       8: ( 8 H X h x         8---      16 8--
+       9: ) 9 I Y i y         8--1      16 (9)
+       A: * : J Z j z         8-2-      16 (10)
+       B: + ; K [ k {         8-(3)     16 (11)
+       C: , < L \ l |         84--      16 (12)
+       D: - = M ] m }         8(5)      16 (12)
+       E: . > N ^ n ~         8(6)      16 (12)
+       F: / ? O _ o DEL       8(7)      16 (12)
+
+`~	1!	2@	3#	4$
+xx	[N1]	[N2]	[N12]	[N4]
+
+tab	q	w	e	r
+xx	[H1]	[H7]	[L5]	[H2]
+		h6
+
+ctrl	a	s	d	f
+xx	[L1]	[H3]	[L4]	[L6]
+
+shift	z	x	c	v
+xx	[HA]    [H8]	[L3]	[H6]
+
+			shift			ctrl
+N => 3 = -21		=>   = -2-
+L => 6 = 42-            => 4 = 4--		---
+H => 7 = 421		=> 5 = 4-1		--1
+
+ctrl sets bit 4 to 0 for letters
+letter sets bit 4 (unless ctrl)
+
+shift sets bit 2 to 0 for letters
+shift sets bit 1 to 0 for numbers
+
+bit 2:
+  1 for unshifted letters
+  0 for shift letters
+  1 for numbers
+
+
