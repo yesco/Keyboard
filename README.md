@@ -8,6 +8,9 @@ The current experimential ideas:
 - make electrical connection of wire/paths by a kind of xy-grid
 - decode by simple circuit, output serial ascii? esp8266 coprocessor
 
+## Cutting
 
+- wood: 2.7mm playwood speed:30 power:55
+- plexiglas: according to wiki
 
 
