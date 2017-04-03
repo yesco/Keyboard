@@ -13,4 +13,13 @@ The current experimential ideas:
 - wood: 2.7mm playwood speed:30 power:55
 - plexiglas: according to wiki
 
+## Problems
+
+Sometimes some shapes makes problem.
+
+- Inkscape: Path-ObjectToPath, Extensions-ModifyPath-FlattenBezier 0.1
+- Cutter: Select All, make one color, some colors make problem
+- The characters seems to make it take forever to "prepare", delete them?
+
+
 
