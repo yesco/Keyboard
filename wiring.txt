@@ -45,8 +45,11 @@ shift sets bit 2 to 0 for letters
 shift sets bit 1 to 0 for numbers
 
 bit 2:
-  1 for unshifted letters
+  1 for normal letters
   0 for shift letters
   1 for numbers
 
+bit 1:
+  1 for numbers (and some symbols)
+  0 for symbols shifted
 
