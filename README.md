@@ -21,5 +21,14 @@ Sometimes some shapes makes problem.
 - Cutter: Select All, make one color, some colors make problem
 - The characters seems to make it take forever to "prepare", delete them?
 
+# Box
+
+## Problems
+
+- OpenSCAD doesn't choose unit, edit SVG file exported add "mm" at top tag
+- Use svg, don't export to dxf as it's not good (?)
+- Make sure bottom board doesn't cut off peg
+  (object union, change to no fill)
+- Then export to DXF
 
 
