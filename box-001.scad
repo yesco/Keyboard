@@ -9,9 +9,13 @@ depth = 16+thickness;
 side_margin = 7.5;
 hole_offset = 3.0;
 hole_diam = 3.2;
-rail = 2 * hole_offset;
+
+
 rail_depth = 6;
 rail_tongues = 12;
+
+//rail = 2 * hole_offset;
+rail = 2 * hole_offset;
 
 module around_box (height, width) {
     for (i=[0:$children-1]) {
@@ -101,11 +105,11 @@ module unit(length, depth) {
 
    // long sides
    translate([0, height + thickness*2 + 5]) {
-     side(length, depth, rail, [3, 0, 3, -14]);
+     side(length, depth, rail/2, [3, 0, 3, -14]);
 
      translate([0, depth + thickness*2 + 5]) {
            difference() {
-             side(length, depth, rail, [3, 0, 3, -14]);
+             side(length, depth, rail/2, [3, 0, 3, -14]);
              translate([0, depth-thickness*1.2])
                color("red")
                  square([length, thickness*2]);
@@ -114,13 +118,13 @@ module unit(length, depth) {
          // short sides
          translate([0, depth + thickness*2 - 5]) {
              difference() {
-               puzzle(height + thickness*2, depth, rail, [-3, 0, -3, -5]);
+               puzzle(height + thickness*2, depth, rail/2, [-3, 0, -3, -5]);
                kbd_hole(depth);
              }
 
              translate([height + thickness * 2.5, 0]) {
                  difference() {
-                   puzzle(height + thickness*2, depth, rail, [-3, 0, -3, -5]);
+                   puzzle(height + thickness*2, depth, rail/2, [-3, 0, -3, -5]);
                    kbd_hole(depth);
                  }
              }
