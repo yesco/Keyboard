@@ -4,7 +4,7 @@ length = 260;
 depth = 30;
 
 // material thickness
-thickness = 6.35;
+thickness = 5.07;
 
 // rail stuff
 side_margin = 7.5;
@@ -91,7 +91,7 @@ module side(width, height, fitting, counts) {
 }
 
 module kbd_hole(depth) {
-  translate([thickness*2.5, depth-thickness*1])
+  translate([thickness*2.5, depth-thickness*1.5])
   color("red")
   square([100, 2.64]);
 }
