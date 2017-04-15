@@ -1,10 +1,9 @@
 // constants
-height = 120;
-length = 260;
-depth = 30;
 
-// material thickness
-thickness = 5.07;
+thickness = 5.07; // material thickness
+height = 120;
+length = 260-2*thickness;
+depth = 16+thickness;
 
 // rail stuff
 side_margin = 7.5;
@@ -91,9 +90,9 @@ module side(width, height, fitting, counts) {
 }
 
 module kbd_hole(depth) {
-  translate([thickness*1, depth-thickness*1])
+  translate([thickness*4, depth-thickness*1])
   color("red")
-  square([101, 2.64]);
+  square([100-3*thickness, 2.64]);
 }
 
 module unit(length, depth) {
@@ -102,21 +101,26 @@ module unit(length, depth) {
 
    // long sides
    translate([0, height + thickness*2 + 5]) {
-     side(length, depth, rail, [2.3, 0, 2.3, -14]);
+     side(length, depth, rail, [3, 0, 3, -14]);
 
      translate([0, depth + thickness*2 + 5]) {
-         side(length, depth, rail, [2.3, 0, 2.3, -14]);
+           difference() {
+             side(length, depth, rail, [3, 0, 3, -14]);
+             translate([0, depth-thickness*1.2])
+               color("red")
+                 square([length, thickness*2]);
+           }
 
          // short sides
          translate([0, depth + thickness*2 - 5]) {
              difference() {
-               puzzle(height + thickness*2, depth, rail, [-2.3, 0, -2, -5]);
+               puzzle(height + thickness*2, depth, rail, [-3, 0, -3, -5]);
                kbd_hole(depth);
              }
 
              translate([height + thickness * 2.5, 0]) {
                  difference() {
-                   puzzle(height + thickness*2, depth, rail, [-2.3, 0, -2, -5]);
+                   puzzle(height + thickness*2, depth, rail, [-3, 0, -3, -5]);
                    kbd_hole(depth);
                  }
              }
