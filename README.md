@@ -31,4 +31,12 @@ Sometimes some shapes makes problem.
   (object union, change to no fill)
 - Then export to DXF
 
+## lizzie
+
+that's a thing
+
+- when you import the image into inkscape, you need to go to document properties in inkscape and change the units to mm, and "1 user unit per mm" (edited)
+- then when you save it as a dxf, you need to select "px" as the unit to export it as
+- i have no clue why but it gets me things the size I expect.
+
 
