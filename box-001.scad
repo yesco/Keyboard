@@ -75,10 +75,10 @@ module nothing() { square(0); }
 
 module rect(width, heigth) { square([thickness, fitting]); }
 
-module side(width, height, fitting, counts) {
+module side(width, height, fitting, counts, bottomFit) {
   // This punches hole for the rail
 //  difference() {
-    puzzle(width, height, fitting, counts);
+    puzzle(width, height, fitting, counts, bottomFit);
 //    translate([0, -10]) {
 //      around_box(width, height) {
 //        nothing();
@@ -105,11 +105,11 @@ module unit(length, depth) {
 
    // long sides
    translate([0, height + thickness*2 + 5]) {
-     side(length, depth, rail/2, [3, 0, 3, -14]);
+     side(length, depth, rail, [1, 0, 1, -14], rail);
 
      translate([0, depth + thickness*2 + 5]) {
            difference() {
-             side(length, depth, rail/2, [3, 0, 3, -14]);
+             side(length, depth, rail, [1, 0, 1, -14], rail);
              translate([0, depth-thickness*1.2])
                color("red")
                  square([length, thickness*2]);
@@ -118,13 +118,13 @@ module unit(length, depth) {
          // short sides
          translate([0, depth + thickness*2 - 5]) {
              difference() {
-               puzzle(height + thickness*2, depth, rail/2, [-3, 0, -3, -5]);
+               puzzle(height + thickness*2, depth, rail, [-1, 0, -1, -5], rail);
                kbd_hole(depth);
              }
 
              translate([height + thickness * 2.5, 0]) {
                  difference() {
-                   puzzle(height + thickness*2, depth, rail/2, [-3, 0, -3, -5]);
+                   puzzle(height + thickness*2, depth, rail, [-1, 0, -1, -5], rail);
                    kbd_hole(depth);
                  }
              }
