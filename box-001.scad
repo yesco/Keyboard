@@ -1,8 +1,10 @@
 // constants
 
 thickness = 5.07; // material thickness
+kbdthick = 2.8;
+
 height = 120;
-length = 260-2*thickness;
+length = 260-2*kbdthick;
 depth = 16+thickness;
 
 // rail stuff
@@ -75,10 +77,10 @@ module nothing() { square(0); }
 
 module rect(width, heigth) { square([thickness, fitting]); }
 
-module side(width, height, fitting, counts, bottomFit) {
+module side(width, height, fitting, counts) {
   // This punches hole for the rail
 //  difference() {
-    puzzle(width, height, fitting, counts, bottomFit);
+    puzzle(width, height, fitting, counts);
 //    translate([0, -10]) {
 //      around_box(width, height) {
 //        nothing();
@@ -105,11 +107,11 @@ module unit(length, depth) {
 
    // long sides
    translate([0, height + thickness*2 + 5]) {
-     side(length, depth, rail, [1, 0, 1, -14], rail);
+     side(length, depth, rail, [1, 0, 1, -14]);
 
      translate([0, depth + thickness*2 + 5]) {
            difference() {
-             side(length, depth, rail, [1, 0, 1, -14], rail);
+             side(length, depth, rail, [1, 0, 1, -14]);
              translate([0, depth-thickness*1.2])
                color("red")
                  square([length, thickness*2]);
