@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg9092"
+   viewBox="0 0 195.184 152.025"
+   height="2.11146in"
+   width="2.71089in"
+   y="0in"
+   x="0in"
+   version="1.2">
+  <metadata
+     id="metadata9136">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9134" />
+  <g
+     transform="translate(61.207465,41.004021)"
+     id="g9094"
+     partID="17693890">
+    <g
+       id="board">
+      <path
+         style="fill:#ffffff;fill-opacity:0.5"
+         d="m 183.208,0.818 4.308,4.304 0,32.276 7.182,7.172 0,92.526 -7.182,7.172 0,4.35 c 0.164,1.396 -0.839,2.66 -2.234,2.824 -0.191,0.021 -0.395,0.021 -0.592,0 l -181.04,0 c -1.397,0.164 -2.663,-0.836 -2.827,-2.229 -0.023,-0.196 -0.023,-0.396 0,-0.596 l 0,-144.975 C 0.66,2.245 1.661,0.98 3.058,0.818 3.254,0.795 3.454,0.795 3.65,0.818 l 179.558,0"
+         id="boardoutline" />
+      <rect
+         style="fill:none;stroke:#666666;stroke-opacity:0.5"
+         x="50.612"
+         id="pinguide1"
+         width="133.782"
+         height="6.3990002"
+         y="4.605" />
+      <rect
+         style="fill:none;stroke:#666666;stroke-opacity:0.5"
+         x="76.532997"
+         id="pinguide2"
+         width="107.78"
+         height="6.3979998"
+         y="141.271" />
+      <rect
+         style="fill:none;stroke:#666666;stroke-opacity:0.5"
+         x="1.605"
+         id="usbconnector"
+         width="23.899"
+         height="31.979"
+         y="27.594" />
+    </g>
+  </g>
+  <xpath
+     d="M150 0 100 10 75 200 225 200 Z" />
+  <xpath
+     text="box"
+     stroke="blue"
+     fill="transparent"
+     d="M10 10 H 90 V 90 Z " />
+  <xpath
+     d="M150 0 75 200 225 300" />
+  <xpath
+     text="box"
+     stroke="blue"
+     fill="transparent"
+     d="M10 10 H 90 V 30 " />
+  <path
+     id="path9110"
+     text="box"
+     stroke="green"
+     fill="transparent"
+     d="M30 80 h 10 v 20 " />
+  <circle
+     cy="80"
+     cx="50"
+     fill="yellow"
+     id="connector1pad"
+     r="1.883"
+     stroke="none" />
+  <path
+     id="path9113"
+     stroke="green"
+     fill="none"
+     stroke-width="1"
+     d="M50 80 h 10 v 20 " />
+  <circle
+     cy="100"
+     cx="60"
+     fill="yellow"
+     id="circle9115"
+     r="1.883"
+     stroke="none" />
+  <circle
+     id="circle9117"
+     cy="100"
+     cx="100"
+     fill="pink"
+     r="2"
+     stroke="pink" />
+  <path
+     id="path9119"
+     stroke-width="1"
+     stroke="green"
+     fill="yellow"
+     d="M100 100          m 0 -5 a 1 1, 0, 0, 0, 0 10 a 1 1, 0, 0, 0, 0 -10 m 0 5          h 30          m 0 -5 a 1 1, 0, 0, 0, 0 10 a 1 1, 0, 0, 0, 0 -10 m 0 5          v 20          m 0 -5 a 1 1, 0, 0, 0, 0 10 a 1 1, 0, 0, 0, 0 -10 m 0 5          h 10          " />
+  <path
+     id="path9121"
+     stroke-width="1"
+     stroke="green"
+     fill="green"
+     d="M100 50          m 0 -1 a 1 1, 0, 0, 0, 0 2 a 1 1, 0, 0, 0, 0 -2 m 0 1          h 30          m 0 -1 a 1 1, 0, 0, 0, 0 2 a 1 1, 0, 0, 0, 0 -2 m 0 1          v 20          m 0 -1 a 1 1, 0, 0, 0, 0 2 a 1 1, 0, 0, 0, 0 -2 m 0 1          h 10          " />
+  <path
+     id="path9123"
+     stroke-width="3"
+     stroke="green"
+     fill="none"
+     d="M150 50          h 30          v 20          h 10          " />
+  <path
+     id="1"
+     transform="matrix(0.79999969,0,0,0.79999962,0,-3.0517564e-5)"
+     d="M 187.5 122.64648 A 2.3537509 2.3537511 0 0 0 185.14648 125 A 2.3537509 2.3537511 0 0 0 187.5 127.35352 A 2.3537509 2.3537511 0 0 0 189.76562 125.625 L 222.73242 125.625 A 2.3537509 2.3537511 0 0 0 224.375 127.26562 L 224.375 147.73242 A 2.3537509 2.3537511 0 0 0 222.64648 150 A 2.3537509 2.3537511 0 0 0 225 152.35352 A 2.3537509 2.3537511 0 0 0 227.26562 150.625 L 237.5 150.625 L 237.5 149.375 L 227.26758 149.375 A 2.3537509 2.3537511 0 0 0 225.625 147.73438 L 225.625 127.26758 A 2.3537509 2.3537511 0 0 0 227.35352 125 A 2.3537509 2.3537511 0 0 0 225 122.64648 A 2.3537509 2.3537511 0 0 0 222.73438 124.375 L 189.76758 124.375 A 2.3537509 2.3537511 0 0 0 187.5 122.64648 z "
+     style="fill:#ffff00;stroke:none" />
+</svg>

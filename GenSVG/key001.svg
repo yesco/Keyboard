@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='2.71089in' height='2.11146in' viewBox='0 0 195.184 152.025' >
+
+<g partID='17693890'><g xmlns="http://www.w3.org/2000/svg" id="board">
+ <path xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" id="boardoutline" fill="#FFFFFF" d="M183.208,0.818l4.308,4.304l0,32.276l7.182,7.172l0,92.526l-7.182,7.172l0,4.35c0.164,1.396,-0.839,2.66,-2.234,2.824c-0.191,0.021,-0.395,0.021,-0.592,0L3.65,151.442c-1.397,0.164,-2.663,-0.836,-2.827,-2.229c-0.023,-0.196,-0.023,-0.396,0,-0.596L0.823,3.642C0.66,2.245,1.661,0.98,3.058,0.818c0.196,-0.023,0.396,-0.023,0.592,0L183.208,0.818"/>
+ <rect xmlns="http://www.w3.org/2000/svg" y="4.605" stroke-opacity="0.5" stroke="#666666" height="6.399" width="133.782" id="pinguide1" fill="none" x="50.612"/>
+ <rect xmlns="http://www.w3.org/2000/svg" y="141.271" stroke-opacity="0.5" stroke="#666666" height="6.398" width="107.78" id="pinguide2" fill="none" x="76.533"/>
+ <rect xmlns="http://www.w3.org/2000/svg" y="27.594" stroke-opacity="0.5" stroke="#666666" height="31.979" width="23.899" id="usbconnector" fill="none" x="1.605"/>
+</g>
+</g>
+
+<g partID='17693891'><g xmlns="http://www.w3.org/2000/svg" id="silkscreen0">
+ <path xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke="#111111" stroke-miterlimit="10" stroke-linejoin="round" id="outline_1_" fill="none" d="M183.208,0.818l4.308,4.304l0,32.276l7.182,7.172l0,92.526l-7.182,7.172l0,4.35c0.164,1.396,-0.839,2.66,-2.234,2.824c-0.191,0.021,-0.395,0.021,-0.592,0L3.65,151.442c-1.397,0.164,-2.663,-0.836,-2.827,-2.229c-0.023,-0.196,-0.023,-0.396,0,-0.596L0.823,3.642C0.66,2.245,1.661,0.98,3.058,0.818c0.196,-0.023,0.396,-0.023,0.592,0L183.208,0.818"/>
+</g>
+</g>
+
+<g partID='2'><g xmlns="http://www.w3.org/2000/svg" id="silkscreen1">
+ <path xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke="#330000" stroke-miterlimit="10" stroke-linejoin="round" id="outline_1_" fill="none" d="M183.208,0.818l4.308,4.304l0,32.276l7.182,7.172l0,92.526l-7.182,7.172l0,4.35c0.164,1.396,-0.839,2.66,-2.234,2.824c-0.191,0.021,-0.395,0.021,-0.592,0L3.65,151.442c-1.397,0.164,-2.663,-0.836,-2.827,-2.229c-0.023,-0.196,-0.023,-0.396,0,-0.596L0.823,3.642C0.66,2.245,1.661,0.98,3.058,0.818c0.196,-0.023,0.396,-0.023,0.592,0L183.208,0.818"/>
+</g>
+</g>
+
+<xpath d="M150 0 100 10 75 200 225 200 Z" />
+
+<xpath d="M10 10 H 90 V 90 Z " fill='transparent' stroke='blue' text='box' />
+
+<xpath d="M150 0 75 200 225 300" />
+
+<xpath d="M10 10 H 90 V 30 " fill='transparent' stroke='blue' text='box' />
+
+<path d="M30 80 h 10 v 20 " fill='transparent' stroke='green' text='box' />
+
+<circle stroke="none" r="1.883" id="connector1pad" fill="yellow" cx="50" cy="80"/>
+<path d="M50 80 h 10 v 20 " stroke-width="1" fill='none' stroke='green' />
+<circle stroke="none" r="1.883" id="connector1pad" fill="yellow" cx="60" cy="100"/>
+
+<circle stroke='pink' r='2' fill='pink' cx='100' cy='100'/>
+<path d="M100 100
+         m 0 -5 a 1 1, 0, 0, 0, 0 10 a 1 1, 0, 0, 0, 0 -10 m 0 5
+         h 30
+         m 0 -5 a 1 1, 0, 0, 0, 0 10 a 1 1, 0, 0, 0, 0 -10 m 0 5
+         v 20
+         m 0 -5 a 1 1, 0, 0, 0, 0 10 a 1 1, 0, 0, 0, 0 -10 m 0 5
+         h 10
+         " fill="yellow" stroke='green' stroke-width='1'/>
+
+<path d="M100 50
+         m 0 -1 a 1 1, 0, 0, 0, 0 2 a 1 1, 0, 0, 0, 0 -2 m 0 1
+         h 30
+         m 0 -1 a 1 1, 0, 0, 0, 0 2 a 1 1, 0, 0, 0, 0 -2 m 0 1
+         v 20
+         m 0 -1 a 1 1, 0, 0, 0, 0 2 a 1 1, 0, 0, 0, 0 -2 m 0 1
+         h 10
+         " fill="green" stroke='green' stroke-width='1'/>
+
+<path d="M150 50
+         h 30
+         v 20
+         h 10
+         " fill='none' stroke='green' stroke-width='3'/>
+
+<g>
+<circle stroke="none" r="1.883" id="1" fill="yellow" cx="150" cy="100"/>
+<circle stroke="none" r="1.883" id="2" fill="yellow" cx="180" cy="100"/>
+<circle stroke="none" r="1.883" id="3" fill="yellow" cx="180" cy="120"/>
+<path d="M150 100
+         h 30
+         v 20
+         h 10
+         " fill='none' stroke='green' stroke-width='1'/>
+</g>
+
+</svg>

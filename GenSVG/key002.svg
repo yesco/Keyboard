@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='2.71089in' height='2.11146in' viewBox='0 0 195.184 152.025' >
+
+<g partID='2'><g xmlns="http://www.w3.org/2000/svg" id="silkscreen1">
+ <path xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke="#330000" stroke-miterlimit="10" stroke-linejoin="round" id="outline_1_" fill="none" d="M183.208,0.818l4.308,4.304l0,32.276l7.182,7.172l0,92.526l-7.182,7.172l0,4.35c0.164,1.396,-0.839,2.66,-2.234,2.824c-0.191,0.021,-0.395,0.021,-0.592,0L3.65,151.442c-1.397,0.164,-2.663,-0.836,-2.827,-2.229c-0.023,-0.196,-0.023,-0.396,0,-0.596L0.823,3.642C0.66,2.245,1.661,0.98,3.058,0.818c0.196,-0.023,0.396,-0.023,0.592,0L183.208,0.818"/>
+</g>
+</g>
+
+<g transform='translate(10,10)'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="30" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="30" cy="20"/>
+<path d="M0 0
+         h 30
+         v 20
+         h 10
+         " fill='none' stroke='green' stroke-width='1'/>
+</g>
+
+<g transform='translate(100,10)'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="4" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="4" cy="4"/>
+<path d="M0 0
+         h 4
+         v 4
+         h 4
+         " fill='none' stroke='green' stroke-width='1'/>
+</g>
+
+<g transform='translate(5,100)' id='key_1'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="12" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="14" cy="8"/>
+
+<path d="M0 0
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 4
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 8
+         h 12
+         " fill='none' stroke='green' stroke-width='1'/>
+
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="24"/>
+
+</g>
+
+<g transform='translate(30,100)' id='key_2'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="12" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="14" cy="8"/>
+
+<path d="M0 0
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 4
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 8
+         h 12
+         " fill='none' stroke='green' stroke-width='1'/>
+
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="20"/>
+
+</g>
+
+<g transform='translate(55,100)' id='key_3'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="12" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="14" cy="8"/>
+
+<path d="M0 0
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 4
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 8
+         h 12
+         " fill='none' stroke='green' stroke-width='1'/>
+
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="24"/>
+
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="18" cy="20"/>
+
+</g>
+
+<g transform='translate(80,100)' id='key_3'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="12" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="14" cy="8"/>
+
+<path d="M0 0
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 4
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 8
+         h 12
+         " fill='none' stroke='green' stroke-width='1'/>
+
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="16"/>
+
+</g>
+
+<g transform='translate(105,100)' id='key_4'>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="12" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" id="3" fill="yellow" cx="14" cy="8"/>
+
+<path d="M0 0
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 4
+         h 30
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 8
+         h 12
+         " fill='none' stroke='green' stroke-width='1'/>
+
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="16" cy="24"/>
+
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" id="2" fill="yellow" cx="18" cy="16"/>
+
+</g>
+
+<g transform='translate(3,112)' id='key_5'>
+<path d="M0 0
+         h 180
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 4
+         h 180
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 8
+         h 180
+         " fill='none' stroke='green' stroke-width='1'/>
+<path d="M0 12
+         h 180
+         " fill='none' stroke='green' stroke-width='1'/>
+</g>
+
+</svg>
