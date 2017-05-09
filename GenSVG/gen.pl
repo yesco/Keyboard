@@ -129,7 +129,7 @@ $offset = 25;
 row(0, $offset + $row++ * $vspace, "1234567890-=");      # ESC, ..., BS
 row(2, $offset + $row++ * $vspace, "\tqwertyuiop[]\\");      # TAB,
 row(4, $offset + $row++ * $vspace, "\100asdfghjkl;\'");    # CTRL, ..., ENTER
-row(8, $offset + $row++ * $vspace, "\101zxcbnm<>?\101");     # SHIFT, ..., SHIFT
+row(8, $offset + $row++ * $vspace, "\101zxcvbnm<>?\101");     # SHIFT, ..., SHIFT
 row(50, $offset + $row++ * $vspace, "\102 \103");             # ALT, SPACE, ALT
 
 post();
