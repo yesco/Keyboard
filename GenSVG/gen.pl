@@ -30,28 +30,42 @@ sub row {
 
     foreach $k (split('', $keys)) {
         my $qchar = $k;
-        if ($k lt ' ') {
-            $qchar = '^' . chr(ord($k) + 64);
+        my $o = ord($k);
+
+        if ($o < 32) {
+            $qchar = '^' . chr($o + 64);
         }
-        if ($k gt 127) {
-            $qchar = 'ascii:' . ord($k);
+        if ($o > 127) {
+            $qchar = 'ascii:' . 'x'; #$o;
         }
-        if ($k eq '\'') {
-            $qchar = 'ascii:' . ord($k);
-        }
+
+        # html chars
+        $qchar = '&lt;' if $k eq '<';
+        $qchar = '&gt;' if $k eq '>';
+        $qchar = '&quot;' if $k eq '\'';
+
+#        print STDERR "---$k = $o => '$qchar'\n";
+
         print "\n\n<!-- KEY '$qchar' -->\n";
 
         print "<g transform='translate($posx,0)' id='key_$qchar'>\n";
         $posx += 25;
 
-        print <<'END';
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+        print "<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />\n";
+        print <<"KEY";
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  $qchar
+</text>
+KEY
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+        print <<'END';
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
+
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -65,19 +79,16 @@ sub row {
 
 END
 
-        my $o = ord($k);
-
         my $w = 16;
 
         $i = 0;
         $k = 1;
         while ($k <= 8) {
-            print STDERR "---$k $i\n";
             if ($o & $k) {
                 $l = 24-4*$i;
                 print <<"END";
-<circle stroke="none" r="1.6" fill="yellow" cx="$w" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="$w" cy="$l"/>
+<circle stroke="none" r="1.6" fill="red" cx="$w" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="$w" cy="$l"/>
 END
                 $w += 2;
             }
@@ -88,19 +99,20 @@ END
         print "</g>\n";
     }
 
-    print <<'END';
+    my $W = 357;
+    print <<"END";
 <g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
-         h 180
+         h $W
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 4
-         h 180
+         h $W
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 8
-         h 180
+         h $W
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 12
-         h 180
+         h $W
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
 END
@@ -114,10 +126,10 @@ pre();
 $vspace = 30;
 $row = 0;
 $offset = 25;
-row(0, $offset + $row++ * $vspace, '1234567890-=');      # ESC, ..., BS
-row(0, $offset + $row++ * $vspace, '\tqwertyuiop[]\\');      # TAB,
-row(0, $offset + $row++ * $vspace, '\100asdfghjkl;\'');    # CTRL, ..., ENTER
-row(0, $offset + $row++ * $vspace, '\101zxcbnm<>?\101');     # SHIFT, ..., SHIFT
-row(0, $offset + $row++ * $vspace, '\102 \103');             # ALT, SPACE, ALT
+row(0, $offset + $row++ * $vspace, "1234567890-=");      # ESC, ..., BS
+row(2, $offset + $row++ * $vspace, "\tqwertyuiop[]\\");      # TAB,
+row(4, $offset + $row++ * $vspace, "\100asdfghjkl;\'");    # CTRL, ..., ENTER
+row(8, $offset + $row++ * $vspace, "\101zxcbnm<>?\101");     # SHIFT, ..., SHIFT
+row(50, $offset + $row++ * $vspace, "\102 \103");             # ALT, SPACE, ALT
 
 post();

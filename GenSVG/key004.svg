@@ -13,13 +13,17 @@
 
 <!-- KEY '^[' -->
 <g transform='translate(5,0)' id='key_^['>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ^[
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -31,24 +35,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
 <!-- KEY '1' -->
 <g transform='translate(30,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  1
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -60,20 +68,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
 </g>
 
 
-<!-- KEY 'ascii:50' -->
-<g transform='translate(55,0)' id='key_ascii:50'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '2' -->
+<g transform='translate(55,0)' id='key_2'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  2
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -85,20 +97,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
 </g>
 
 
-<!-- KEY 'ascii:51' -->
-<g transform='translate(80,0)' id='key_ascii:51'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '3' -->
+<g transform='translate(80,0)' id='key_3'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  3
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -110,22 +126,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
 </g>
 
 
-<!-- KEY 'ascii:52' -->
-<g transform='translate(105,0)' id='key_ascii:52'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '4' -->
+<g transform='translate(105,0)' id='key_4'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  4
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -137,20 +157,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:53' -->
-<g transform='translate(130,0)' id='key_ascii:53'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '5' -->
+<g transform='translate(130,0)' id='key_5'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  5
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -162,22 +186,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:54' -->
-<g transform='translate(155,0)' id='key_ascii:54'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '6' -->
+<g transform='translate(155,0)' id='key_6'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  6
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -189,22 +217,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:55' -->
-<g transform='translate(180,0)' id='key_ascii:55'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '7' -->
+<g transform='translate(180,0)' id='key_7'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  7
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -216,24 +248,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:56' -->
-<g transform='translate(205,0)' id='key_ascii:56'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '8' -->
+<g transform='translate(205,0)' id='key_8'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  8
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -245,20 +281,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:57' -->
-<g transform='translate(230,0)' id='key_ascii:57'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '9' -->
+<g transform='translate(230,0)' id='key_9'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  9
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -270,22 +310,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
 <!-- KEY '0' -->
 <g transform='translate(255,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  0
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -302,13 +346,17 @@
 
 <!-- KEY '-' -->
 <g transform='translate(280,0)' id='key_-'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  -
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -320,24 +368,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:61' -->
-<g transform='translate(305,0)' id='key_ascii:61'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '=' -->
+<g transform='translate(305,0)' id='key_='>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  =
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -349,24 +401,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
 <!-- KEY '^H' -->
 <g transform='translate(330,0)' id='key_^H'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ^H
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -378,38 +434,42 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="12"/>
 </g>
 <g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 4
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 8
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 12
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
 
 </g>
 
-<g transform='translate(0, 55)'><!-- keyboard row -->
+<g transform='translate(2, 55)'><!-- keyboard row -->
 
 
-<!-- KEY 'ascii:92' -->
-<g transform='translate(5,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '^I' -->
+<g transform='translate(7,0)' id='key_^I'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ^I
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -421,22 +481,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:116' -->
-<g transform='translate(30,0)' id='key_ascii:116'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'q' -->
+<g transform='translate(32,0)' id='key_q'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  q
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -448,20 +512,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
 </g>
 
 
-<!-- KEY 'ascii:113' -->
-<g transform='translate(55,0)' id='key_ascii:113'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'w' -->
+<g transform='translate(57,0)' id='key_w'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  w
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -473,20 +541,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:119' -->
-<g transform='translate(80,0)' id='key_ascii:119'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'e' -->
+<g transform='translate(82,0)' id='key_e'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  e
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -498,24 +574,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:101' -->
-<g transform='translate(105,0)' id='key_ascii:101'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'r' -->
+<g transform='translate(107,0)' id='key_r'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  r
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -527,22 +605,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
 </g>
 
 
-<!-- KEY 'ascii:114' -->
-<g transform='translate(130,0)' id='key_ascii:114'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 't' -->
+<g transform='translate(132,0)' id='key_t'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  t
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -554,20 +634,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:116' -->
-<g transform='translate(155,0)' id='key_ascii:116'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'y' -->
+<g transform='translate(157,0)' id='key_y'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  y
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -579,20 +663,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:121' -->
-<g transform='translate(180,0)' id='key_ascii:121'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'u' -->
+<g transform='translate(182,0)' id='key_u'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  u
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -604,22 +694,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:117' -->
-<g transform='translate(205,0)' id='key_ascii:117'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'i' -->
+<g transform='translate(207,0)' id='key_i'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  i
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -631,22 +725,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:105' -->
-<g transform='translate(230,0)' id='key_ascii:105'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'o' -->
+<g transform='translate(232,0)' id='key_o'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  o
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -658,53 +756,30 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="22" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="22" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:111' -->
-<g transform='translate(255,0)' id='key_ascii:111'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'p' -->
+<g transform='translate(257,0)' id='key_p'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  p
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="12"/>
-</g>
-
-
-<!-- KEY 'ascii:112' -->
-<g transform='translate(280,0)' id='key_ascii:112'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -719,15 +794,19 @@
 </g>
 
 
-<!-- KEY 'ascii:91' -->
-<g transform='translate(305,0)' id='key_ascii:91'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '[' -->
+<g transform='translate(282,0)' id='key_['>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  [
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -739,24 +818,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:93' -->
-<g transform='translate(330,0)' id='key_ascii:93'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY ']' -->
+<g transform='translate(307,0)' id='key_]'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ]
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -768,24 +851,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:92' -->
-<g transform='translate(355,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '\' -->
+<g transform='translate(332,0)' id='key_\'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  \
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -797,92 +884,44 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 <g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 4
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 8
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 12
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
 
 </g>
 
-<g transform='translate(0, 85)'><!-- keyboard row -->
+<g transform='translate(4, 85)'><!-- keyboard row -->
 
 
-<!-- KEY 'ascii:92' -->
-<g transform='translate(5,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '@' -->
+<g transform='translate(9,0)' id='key_@'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  @
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
-</g>
-
-
-<!-- KEY '1' -->
-<g transform='translate(30,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-</g>
-
-
-<!-- KEY '0' -->
-<g transform='translate(55,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -897,15 +936,19 @@
 </g>
 
 
-<!-- KEY '0' -->
-<g transform='translate(80,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'a' -->
+<g transform='translate(34,0)' id='key_a'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  a
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -917,18 +960,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
 </g>
 
 
-<!-- KEY 'ascii:97' -->
-<g transform='translate(105,0)' id='key_ascii:97'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 's' -->
+<g transform='translate(59,0)' id='key_s'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  s
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -940,20 +989,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
 </g>
 
 
-<!-- KEY 'ascii:115' -->
-<g transform='translate(130,0)' id='key_ascii:115'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'd' -->
+<g transform='translate(84,0)' id='key_d'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  d
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -965,22 +1020,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:100' -->
-<g transform='translate(155,0)' id='key_ascii:100'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'f' -->
+<g transform='translate(109,0)' id='key_f'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  f
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -992,20 +1049,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:102' -->
-<g transform='translate(180,0)' id='key_ascii:102'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'g' -->
+<g transform='translate(134,0)' id='key_g'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  g
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1017,22 +1080,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="16"/>
 </g>
 
 
-<!-- KEY 'ascii:103' -->
-<g transform='translate(205,0)' id='key_ascii:103'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'h' -->
+<g transform='translate(159,0)' id='key_h'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  h
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1044,24 +1113,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:104' -->
-<g transform='translate(230,0)' id='key_ascii:104'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'j' -->
+<g transform='translate(184,0)' id='key_j'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  j
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1073,20 +1142,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:106' -->
-<g transform='translate(255,0)' id='key_ascii:106'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'k' -->
+<g transform='translate(209,0)' id='key_k'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  k
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1098,22 +1173,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:107' -->
-<g transform='translate(280,0)' id='key_ascii:107'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'l' -->
+<g transform='translate(234,0)' id='key_l'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  l
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1125,24 +1206,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:108' -->
-<g transform='translate(305,0)' id='key_ascii:108'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY ';' -->
+<g transform='translate(259,0)' id='key_;'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ;
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1154,51 +1237,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:59' -->
-<g transform='translate(330,0)' id='key_ascii:59'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '&quot;' -->
+<g transform='translate(284,0)' id='key_&quot;'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  &quot;
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
-</g>
-
-
-<!-- KEY 'ascii:39' -->
-<g transform='translate(355,0)' id='key_ascii:39'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1210,24 +1270,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="16"/>
 </g>
 
 
 <!-- KEY '^M' -->
-<g transform='translate(380,0)' id='key_^M'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<g transform='translate(309,0)' id='key_^M'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ^M
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1239,42 +1303,46 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 <g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 4
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 8
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 12
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
 
 </g>
 
-<g transform='translate(0, 115)'><!-- keyboard row -->
+<g transform='translate(8, 115)'><!-- keyboard row -->
 
 
-<!-- KEY 'ascii:92' -->
-<g transform='translate(5,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'A' -->
+<g transform='translate(13,0)' id='key_A'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  A
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1286,22 +1354,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
 </g>
 
 
-<!-- KEY '1' -->
-<g transform='translate(30,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'z' -->
+<g transform='translate(38,0)' id='key_z'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  z
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1313,20 +1383,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY '0' -->
-<g transform='translate(55,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'x' -->
+<g transform='translate(63,0)' id='key_x'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  x
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1338,18 +1414,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="12"/>
 </g>
 
 
-<!-- KEY '1' -->
-<g transform='translate(80,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'c' -->
+<g transform='translate(88,0)' id='key_c'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  c
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1361,20 +1443,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
 </g>
 
 
-<!-- KEY 'ascii:122' -->
-<g transform='translate(105,0)' id='key_ascii:122'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'b' -->
+<g transform='translate(113,0)' id='key_b'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  b
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1386,22 +1474,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
 </g>
 
 
-<!-- KEY 'ascii:120' -->
-<g transform='translate(130,0)' id='key_ascii:120'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'n' -->
+<g transform='translate(138,0)' id='key_n'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  n
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1413,20 +1503,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:99' -->
-<g transform='translate(155,0)' id='key_ascii:99'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'm' -->
+<g transform='translate(163,0)' id='key_m'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  m
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1438,22 +1536,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:98' -->
-<g transform='translate(180,0)' id='key_ascii:98'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '&lt;' -->
+<g transform='translate(188,0)' id='key_&lt;'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  &lt;
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1465,20 +1569,26 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:110' -->
-<g transform='translate(205,0)' id='key_ascii:110'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '&gt;' -->
+<g transform='translate(213,0)' id='key_&gt;'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  &gt;
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1490,24 +1600,28 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:109' -->
-<g transform='translate(230,0)' id='key_ascii:109'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY '?' -->
+<g transform='translate(238,0)' id='key_?'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  ?
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1519,24 +1633,30 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="20" cy="16"/>
+<circle stroke="none" r="1.6" fill="red" cx="22" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="22" cy="12"/>
 </g>
 
 
-<!-- KEY 'ascii:60' -->
-<g transform='translate(255,0)' id='key_ascii:60'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'A' -->
+<g transform='translate(263,0)' id='key_A'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  A
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1548,200 +1668,42 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
-</g>
-
-
-<!-- KEY 'ascii:62' -->
-<g transform='translate(280,0)' id='key_ascii:62'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="12"/>
-</g>
-
-
-<!-- KEY 'ascii:63' -->
-<g transform='translate(305,0)' id='key_ascii:63'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="20" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="12"/>
-</g>
-
-
-<!-- KEY 'ascii:92' -->
-<g transform='translate(330,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
-</g>
-
-
-<!-- KEY '1' -->
-<g transform='translate(355,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-</g>
-
-
-<!-- KEY '0' -->
-<g transform='translate(380,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-</g>
-
-
-<!-- KEY '1' -->
-<g transform='translate(405,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
 </g>
 <g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 4
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 8
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 12
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
 
 </g>
 
-<g transform='translate(0, 145)'><!-- keyboard row -->
+<g transform='translate(50, 145)'><!-- keyboard row -->
 
 
-<!-- KEY 'ascii:92' -->
-<g transform='translate(5,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'B' -->
+<g transform='translate(55,0)' id='key_B'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  B
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1753,170 +1715,24 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
-</g>
-
-
-<!-- KEY '1' -->
-<g transform='translate(30,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-</g>
-
-
-<!-- KEY '0' -->
-<g transform='translate(55,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-</g>
-
-
-<!-- KEY 'ascii:50' -->
-<g transform='translate(80,0)' id='key_ascii:50'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="20"/>
 </g>
 
 
 <!-- KEY ' ' -->
-<g transform='translate(105,0)' id='key_ '>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<g transform='translate(80,0)' id='key_ '>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+   
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-</g>
-
-
-<!-- KEY 'ascii:92' -->
-<g transform='translate(130,0)' id='key_ascii:92'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="16"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="12"/>
-</g>
-
-
-<!-- KEY '1' -->
-<g transform='translate(155,0)' id='key_1'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
-
-<path d="M0 0
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 4
-         h 30
-         " fill='none' stroke='green' stroke-width='1'/>
-<path d="M0 8
-         h 12
-         " fill='none' stroke='green' stroke-width='1'/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-</g>
-
-
-<!-- KEY '0' -->
-<g transform='translate(180,0)' id='key_0'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
-
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1931,15 +1747,19 @@
 </g>
 
 
-<!-- KEY 'ascii:51' -->
-<g transform='translate(205,0)' id='key_ascii:51'>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="0" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="0"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="12" cy="8"/>
+<!-- KEY 'C' -->
+<g transform='translate(105,0)' id='key_C'>
+<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+  C
+</text>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
+<circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
+<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
 
 <path d="M0 0
          h 30
@@ -1951,23 +1771,23 @@
          h 12
          " fill='none' stroke='green' stroke-width='1'/>
 
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="16" cy="24"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="8"/>
-<circle stroke="none" r="1.6" fill="yellow" cx="18" cy="20"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="16" cy="24"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="8"/>
+<circle stroke="none" r="1.6" fill="red" cx="18" cy="20"/>
 </g>
 <g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 4
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 8
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 <path d="M0 12
-         h 180
+         h 357
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
 
