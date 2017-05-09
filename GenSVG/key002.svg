@@ -6,29 +6,9 @@
 </g>
 </g>
 
-<g transform='translate(10,10)'>
-<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" id="2" fill="yellow" cx="30" cy="0"/>
-<circle stroke="none" r="1.6" id="3" fill="yellow" cx="30" cy="20"/>
-<path d="M0 0
-         h 30
-         v 20
-         h 10
-         " fill='none' stroke='green' stroke-width='1'/>
-</g>
+<g transform='translate(0,30)'><!-- keyboard row -->
 
-<g transform='translate(100,10)'>
-<circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
-<circle stroke="none" r="1.6" id="2" fill="yellow" cx="4" cy="0"/>
-<circle stroke="none" r="1.6" id="3" fill="yellow" cx="4" cy="4"/>
-<path d="M0 0
-         h 4
-         v 4
-         h 4
-         " fill='none' stroke='green' stroke-width='1'/>
-</g>
-
-<g transform='translate(5,100)' id='key_1'>
+<g transform='translate(5,0)' id='key_1'>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
 <circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
@@ -51,7 +31,7 @@
 
 </g>
 
-<g transform='translate(30,100)' id='key_2'>
+<g transform='translate(30,0)' id='key_2'>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
 <circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
@@ -74,7 +54,7 @@
 
 </g>
 
-<g transform='translate(55,100)' id='key_3'>
+<g transform='translate(55,0)' id='key_3'>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
 <circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
@@ -100,7 +80,7 @@
 
 </g>
 
-<g transform='translate(80,100)' id='key_3'>
+<g transform='translate(80,0)' id='key_3'>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
 <circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
@@ -123,7 +103,7 @@
 
 </g>
 
-<g transform='translate(105,100)' id='key_4'>
+<g transform='translate(105,0)' id='key_4'>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="0"/>
 <circle stroke="none" r="1.6" id="1" fill="yellow" cx="0" cy="8"/>
 <circle stroke="none" r="1.6" id="2" fill="yellow" cx="12" cy="0"/>
@@ -149,7 +129,7 @@
 
 </g>
 
-<g transform='translate(3,112)' id='key_5'>
+<g transform='translate(3,12)' id='key_5'>
 <path d="M0 0
          h 180
          " fill='none' stroke='green' stroke-width='1'/>
@@ -163,5 +143,7 @@
          h 180
          " fill='none' stroke='green' stroke-width='1'/>
 </g>
+
+</g><!-- keyboard row -->
 
 </svg>
