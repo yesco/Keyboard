@@ -2,10 +2,11 @@
 
 thickness = 5.07; // material thickness
 kbdthick = 2.8;
+kbdless = 2.64;
 
 height = 130;
 length = 260-2*kbdthick;
-depth = 16+thickness;
+depth = 30+thickness;
 addon = 15;
 
 // rail stuff
@@ -74,7 +75,7 @@ module puzzle (width, height, fitting, counts) {
     }
 }
 
-module lid (width, height, fitting, counts) {
+module lid (width, height) {
     difference () {
         square([width+thickness*3, height]);
 
@@ -102,7 +103,7 @@ module side(width, height, fitting, counts) {
 //      around_box(width, height) {
 //        nothing();
 //        translate([0, 10]) {
-//          square([2.64,100]);
+//          square([kbdless,100]);
 //        //        tongues_out(width, rail_tongues, fitting, thickness);
 //        }
 //        nothing();
@@ -115,27 +116,22 @@ module side(width, height, fitting, counts) {
 module kbd_hole(depth) {
   translate([thickness*4, depth-thickness*1])
   color("red")
-  square([100-3*thickness, 2.64]);
+  square([100-3*thickness, kbdless]);
 }
 
 module slide_hole(depth) {
   translate([thickness*4, depth+addon-thickness*2]) {
     color("red")
-    square([120-3*thickness, 2.64]);
+    square([120-3*thickness, thickness]);
     color("cyan")
-    translate([120-30, -10]) {
-      translate([0, 6])square([8, 6]);
-      rotate([0,0,-37]) square([2.64, 10]);
+    translate([120-45, -20]) {
+      translate([5, 10])square([15, 10]);
+      rotate([0,0,-37]) square([thickness, 30]);
     }
     color("blue")
-    translate([120-23, -10]) {
-      translate([-1, 6])square([8, 6]);
-      rotate([0,0,-30]) square([2.64, 10]);
-    }
-    color("yellow")
-    translate([120-16, -10]) {
-      translate([-2, 6])square([8, 7]);
-      rotate([0,0,-20]) square([2.64, 10]);
+    translate([120-30, -20]) {
+      translate([-3, 10])square([15, 10]);
+      rotate([0,0,-30]) square([thickness, 30]);
     }
   }
 }
@@ -146,11 +142,11 @@ module unit(length, depth) {
 
    // long sides
    translate([0, height + thickness*2 + 5]) {
-     side(length, depth, rail, [1, 0, 1, -14]);
+     side(length, depth, rail, [2, 0, 2, -14]);
 
      translate([0, depth + thickness*2 + 5]) {
            difference() {
-             side(length, depth, rail, [1, 0, 1, -14]);
+             side(length, depth, rail, [2, 0, 2, -14]);
              translate([0, depth-thickness*1.2])
                color("red")
                  square([length, thickness*2]);
@@ -159,14 +155,24 @@ module unit(length, depth) {
          // short sides
          translate([0, depth + thickness*2 - 5]) {
              difference() {
-               puzzle(height + thickness*2, depth + addon, rail, [-1, 0, -1, -5], rail);
+               union() {
+                 puzzle(height + thickness*2, depth, rail, [-2, 0, -2, -5], rail);
+                 translate([thickness, 0])
+                   square([height, depth+addon]);
+               }
                kbd_hole(depth);
                slide_hole(depth);
              }
 
              translate([height + thickness * 2.5, 0]) {
                  difference() {
-                   puzzle(height + thickness*2, depth + addon, rail, [-1, 0, -1, -5], rail);
+                   union() {
+                     puzzle(height + thickness*2, depth, rail, [-2, 0, -2, -5], rail
+);
+                     translate([thickness, 0])
+                       square([height, depth+addon]);
+                 }
+
                    kbd_hole(depth);
                    slide_hole(depth);
                  }
