@@ -1,3 +1,5 @@
+my $TEXT = 1;
+
 sub pre {
     print <<'END'
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
@@ -22,7 +24,7 @@ END
 }
 
 sub row {
-    my ($x, $y, $keys) = @_;
+    my ($x, $y, $keys, $hi) = @_;
 
     print "\n<g transform='translate($x, $y)'><!-- keyboard row -->\n";
 
@@ -31,9 +33,13 @@ sub row {
     foreach $k (split('', $keys)) {
         my $qchar = $k;
         my $o = ord($k);
+        my $numsym = 0;
 
         if ($o < 32) {
             $qchar = '^' . chr($o + 64);
+        }
+        if ($o > 32 && $o < 65) {
+            $numsym = 1;
         }
         if ($o > 127) {
             $qchar = 'ascii:' . 'x'; #$o;
@@ -51,21 +57,29 @@ sub row {
         print "<g transform='translate($posx,0)' id='key_$qchar'>\n";
         $posx += 25;
 
-        print "<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />\n";
-        print <<"KEY";
-<text x="0" y="7" font-family="Verdana" font-size="10" fill='blue'>
+        if ($TEXT) {
+            print "<path stroke-width='0.5' stroke='gray' fill='none' d='M-2 -2 h16 v12 h-16 v-12' />\n";
+            print <<"KEY";
+<text x="0" y="7" font-family="Verdana" font-size="10" fill='gold'>
   $qchar
 </text>
 KEY
+        }
 
-        print <<'END';
+        my $col = ($o & 16) ? 'blue' : 'cyan';
+        my $colwire = $hi ? 'blue' : 'cyan';
+        $col = 'lightblue' if $numsym;
+        $colwire = 'lightblue' if $keys =~ /123/;
+
+        print <<"END";
 <circle stroke="none" r="1.6" fill="black" cx="0" cy="0"/>
 <circle stroke="none" r="1.6" fill="black" cx="0" cy="8"/>
 <circle stroke="none" r="1.6" fill="black" cx="12" cy="0"/>
 <circle stroke="none" r="1.6" fill="black" cx="12" cy="8"/>
 
-<circle stroke="none" r="1.6" fill="orange" cx="22" cy="4"/>
-<circle stroke="none" r="1.6" fill="orange" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="$col" cx="14" cy="8"/>
+<circle stroke="none" r="1.6" fill="$colwire" cx="20" cy="4"/>
+<circle stroke="none" r="1.6" fill="$colwire" cx="22" cy="4"/>
 
 <path d="M0 0
          h 30
@@ -101,19 +115,19 @@ END
 
     my $W = 357;
     print <<"END";
-<g transform='translate(3,12)' id='key_5'>
+<g transform='translate(3,12)' id='key_5' stroke='gray' stroke-width='1'>
 <path d="M0 0
          h $W
-         " fill='none' stroke='green' stroke-width='1'/>
+         " fill='none' />
 <path d="M0 4
          h $W
-         " fill='none' stroke='green' stroke-width='1'/>
+         " fill='none' />
 <path d="M0 8
          h $W
-         " fill='none' stroke='green' stroke-width='1'/>
+         " fill='none' />
 <path d="M0 12
          h $W
-         " fill='none' stroke='green' stroke-width='1'/>
+         " fill='none' />
 </g>
 END
 
@@ -126,10 +140,10 @@ pre();
 $vspace = 30;
 $row = 0;
 $offset = 25;
-row(0, $offset + $row++ * $vspace, "1234567890-=");      # ESC, ..., BS
-row(2, $offset + $row++ * $vspace, "\tqwertyuiop[]\\");      # TAB,
-row(4, $offset + $row++ * $vspace, "\100asdfghjkl;\'");    # CTRL, ..., ENTER
-row(8, $offset + $row++ * $vspace, "\101zxcvbnm<>?\101");     # SHIFT, ..., SHIFT
+row(0, $offset + $row++ * $vspace, "1234567890-=", 1);      # ESC, ..., BS
+row(2, $offset + $row++ * $vspace, "\tqwertyuiop[]\\", 1);      # TAB,
+row(4, $offset + $row++ * $vspace, "\100asdfghjkl;\'", 0);    # CTRL, ..., ENTER
+row(8, $offset + $row++ * $vspace, "\101zxcvbnm<>?\101", 1);    # SHIFT, ..., SHIFT
 row(50, $offset + $row++ * $vspace, "\102 \103");             # ALT, SPACE, ALT
 
 post();
