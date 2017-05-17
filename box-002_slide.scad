@@ -77,8 +77,16 @@ module puzzle (width, height, fitting, counts) {
 module lid (width, height, fitting, counts) {
     difference () {
         square([width+thickness*3, height]);
-        translate([0,thickness*3])square([thickness*1.5, height]);
-        translate([width+thickness*1.5,thickness*3])square([thickness*1.5, height]);
+
+        translate([0, thickness*6.0])
+            square([thickness*1.5, height]);
+        translate([width+thickness*1.5, thickness*6.0])
+            square([thickness*1.5, height]);
+
+        translate([0, 0])
+            square([thickness*1.5, thickness*3.5]);
+        translate([width+thickness*1.5, thickness*0])
+            square([thickness*1.5, thickness*3.5]);
     }
 }
 
